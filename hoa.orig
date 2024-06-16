@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Darkbin - HOA</title>
+        <link rel="stylesheet" href="/assets/css/main2.css">
+    </head>
+    <body>
+        <audio id="hoa-audio" src="../hoa/audio.mp3" autoplaystyle="display:none"></audio>
+        <div class="navi_wrap">
+            <div class="navi">
+                <div>
+                    <a class="brand" href="/">Darkbin</a>
+                </div>
+                <div class="navi_body" id="navi_body">
+                    <a href="/">Home</a>
+                    <a href="/upload">Add Paste</a>
+                    <a href="/users">Users</a>
+                    <a href="/upgrade">Upgrade</a>
+                    <a class="active" href="/hoa">Hall of Autism</a>
+                    <a href="/tos">TOS</a>
+                    <a target="_blank" href="https://t.me/darkbinorg">Telegram</a>
+                    <div class="navi_right">
+                        <a href="/login">Login</a>
+                        <a href="/register">Register</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="center">
+            <pre style="margin:0">
+                _____             _    _     _       
+|  __ \           | |  | |   (_)      
+| |  | | __ _ _ __| | _| |__  _ _ __  
+| |  | |/ _` | '__| |/ / '_ \| | '_ \ 
+| |__| | (_| | |  |   
+                <| |_) | | | | | |_____ / \__,_|_| |_|\_\_.__/|_|_| |_|</pre>
+    <h4 style="font-size:24px;margin:0;margin-bottom:20px" class="hoa-title rainbow">
+                    <b>HALL OF AUTISM</b>
+</h4></div>
+<div class="hoa_wrap">
+    <div class='hoa-container'>
+        <div class='hoa-image'>
+            <img src='../cdn/hoa/6625549b745bf.png'>
+        </div>
+        <div class='hoa-name rainbow'>Myles</div>
+        <div class='hoa-description'>
+            <b>Myles Forden</b>
+        </div>
+        <div class='hoa-description'>Just being a harmless skid and making empty threats to the lk llc</div>
+    </div>
+    <div class='hoa-container'>
+        <div class='hoa-image'>
+            <img src='../cdn/hoa/65e895b3b3b27.png'>
+        </div>
+        <div class='hoa-name rainbow'>Kurby</div>
+        <div class='hoa-description'>
+            <b>Mason Kurby</b>
+        </div>
+        <div class='hoa-description'>This Is Mason Kurby
+a Skid Who Thinks he is Hot Shit 
+likes to Dick Ride Lk12 and others his dox is Mason Kurby</div>
+    </div>
+    <div class='hoa-container'>
+        <div class='hoa-image'>
+            <img src='../cdn/hoa/65e92b5fea5a2.png'>
+        </div>
+        <div class='hoa-name rainbow'>IndigoThings</div>
+        <div class='hoa-description'>
+            <b>Austin Free</b>
+        </div>
+        <div class='hoa-description'>This is Austin Free, a Scammer &well known pedophile. Austin has freely used and taken thousands of USD from his parents, made deals behind his own collegues backs for years on end.</div>
+    </div>
+    <div class='hoa-container'>
+        <div class='hoa-image'>
+            <img src='../cdn/hoa/65e709460dde3.png'>
+        </div>
+        <div class='hoa-name rainbow'>styx</div>
+        <div class='hoa-description'>
+            <b>Ben Sherwood / Ben Griffifs</b>
+        </div>
+        <div class='hoa-description'>Begs Kids To Dox People For Him
+Num 1 Dick Rider
+Payed a Random To Get His POst Taken Down -LK12</div>
+    </div>
+    <div class='hoa-container'>
+        <div class='hoa-image'>
+            <img src='../cdn/hoa/65fa1b291018b.jpg'>
+        </div>
+        <div class='hoa-name rainbow'>Marley/Jyro</div>
+        <div class='hoa-description'>
+            <b>Jacob Keeton</b>
+        </div>
+        <div class='hoa-description'>Dick rides kids to dox people for him and asks them to pay for vps or hostings. Acts like a scary hacker man even tho his info is out there</div>
+    </div>
+    <div class='hoa-container'>
+        <div class='hoa-image'>
+            <img src='../cdn/hoa/660edb731595e.webp'>
+        </div>
+        <div class='hoa-name rainbow'>J. Tucker</div>
+        <div class='hoa-description'>
+            <b>Jacob Sancrant</b>
+        </div>
+        <div class='hoa-description'>Likes running his big mouth off and saying the lk llc is harmless and saying he is untouchable.</div>
+    </div>
+    <div class='hoa-container'>
+        <div class='hoa-image'>
+            <img src='../cdn/hoa/660504e5a7a2a.jpg'>
+        </div>
+        <div class='hoa-name rainbow'>Shadey</div>
+        <div class='hoa-description'>
+            <b>Jamie Goodman</b>
+        </div>
+        <div class='hoa-description'>This is Jamie Goodman. Responsible for his CIA doxing &swatting children. Also, known as a skid and scammer that runs a FiveM Server called San Andreas State Roleplay aka SASRP and goes back and forth with Cali RP, Timothy Sarcia. He has recently went back Daddy Timmy Cali RP.</div>
+    </div>
+    <div class='hoa-container'>
+        <div class='hoa-image'>
+            <img src='../cdn/hoa/660505e7a3de4.png'>
+        </div>
+        <div class='hoa-name rainbow'>Synthex</div>
+        <div class='hoa-description'>
+            <b>Gavin Giddens</b>
+        </div>
+        <div class='hoa-description'>Gavin Giddens is a well known skid &scammer that likes scamming people on FiveM. Famously known for doing sexual things with a Pedophile called Brandon Jordan Kendricks Owner of Incredible Roleplay. Also, known for using leaks, copying Safe Guard and other things, taking other peoples work and claiming it as his.</div>
+    </div>
+    <div class='hoa-container'>
+        <div class='hoa-image'>
+            <img src='../cdn/hoa/6605069c7e881.webp'>
+        </div>
+        <div class='hoa-name rainbow'>Ren</div>
+        <div class='hoa-description'>
+            <b>Timothy Sarcia</b>
+        </div>
+        <div class='hoa-description'>Raping his own daughter and responsible for multiple doxes and swattings on minors on FiveM and etc.</div>
+    </div>
+    <div class='hoa-container'>
+        <div class='hoa-image'>
+            <img src='../cdn/hoa/66259a01afea6.png'>
+        </div>
+        <div class='hoa-name rainbow'>Cloudflare CEO</div>
+        <div class='hoa-description'>
+            <b>Matthew Prince</b>
+        </div>
+        <div class='hoa-description'>The reason this Dox is Being Made is because They want to Take down skidbin.site with out a given reason
+and has not been up. I think its funny how USERS can make CHILD PORN WEBSITE with there DDOS HOSTING
+its crazy they take down a pasting website thats made for posting info but wont take down CHILD PORN
+WEBSITES. But other then that i think this nigga earned a dox for banning something that was like pastbin.
+Low Key think the Ceo is a PEDO himself because he likes to keep the CP WEBSITES up But other than that</div>
+    </div>
+    <div class='hoa-container'>
+        <div class='hoa-image'>
+            <img src='../cdn/hoa/66343a50aba1c.jpg'>
+        </div>
+        <div class='hoa-name rainbow'>Scotty</div>
+        <div class='hoa-description'>
+            <b>Daniel Stepanek</b>
+        </div>
+        <div class='hoa-description'>Grooming minors 13 under. Calling police on the Darkbin team.</div>
+    </div>
+    <div class='hoa-container'>
+        <div class='hoa-image'>
+            <img src='../cdn/hoa/66315faf47815.jpg'>
+        </div>
+        <div class='hoa-name rainbow'>Death/Ghost</div>
+        <div class='hoa-description'>
+            <b>Anthony Campoverde</b>
+        </div>
+        <div class='hoa-description'>Grooming minors and acting very homosexual. Talking shit and talking dirty to minors and even the LK LLC.</div>
+    </div>
+    <div class='hoa-container'>
+        <div class='hoa-image'>
+            <img src='../cdn/hoa/660508f3b4889.png'>
+        </div>
+        <div class='hoa-name rainbow'>Vitals</div>
+        <div class='hoa-description'>
+            <b>Addysen Whitis</b>
+        </div>
+        <div class='hoa-description'>Being an Harmless Little Skid and runs his big mouth off and etc.</div>
+    </div>
+    <div class='hoa-container'>
+        <div class='hoa-image'>
+            <img src='../cdn/hoa/662ea7b0bb98f.jpg'>
+        </div>
+        <div class='hoa-name rainbow'>CURSX</div>
+        <div class='hoa-description'>
+            <b>CALEB BRATON</b>
+        </div>
+        <div class='hoa-description'>The Reason was dox was pasted again because this little fagget wanted to com back to com
+he has had his user data base leaked , swatted , Extorted , SEd like 10x time and then trys to get his paste taken down off doxbin
+fails and gets reposted on darkbin and put on HOA 
+</div>
+    </div>
+    <div class='hoa-container'>
+        <div class='hoa-image'>
+            <img src='../cdn/hoa/6620322f95c87.png'>
+        </div>
+        <div class='hoa-name rainbow'>Ducky</div>
+        <div class='hoa-description'>
+            <b>Jordan Blanks</b>
+        </div>
+        <div class='hoa-description'>Claiming he is able to do shit. And setting his profile as someone else when he is a skid</div>
+    </div>
+    <div class='hoa-container'>
+        <div class='hoa-image'>
+            <img src='../cdn/hoa/6636976eacad8.png'>
+        </div>
+        <div class='hoa-name rainbow'>Sir Andrew</div>
+        <div class='hoa-description'>
+            <b>Grayson Mccain</b>
+        </div>
+        <div class='hoa-description'>Running his big mouth off to the wrong people and claiming the lk llc is harmless.</div>
+    </div>
+    <div class='hoa-container'>
+        <div class='hoa-image'>
+            <img src='../cdn/hoa/6638260d99a43.png'>
+        </div>
+        <div class='hoa-name rainbow'>Mr. Red</div>
+        <div class='hoa-description'>
+            <b>Kal Kidney</b>
+        </div>
+        <div class='hoa-description'>Threating and Calling the police on Darkbin. And attempting to nuke Darkbins website and discord.
+
+His doxx: https://darkbin.org/upload/view.php?id=1049</div>
+    </div>
+    <div class='hoa-container'>
+        <div class='hoa-image'>
+            <img src='../cdn/hoa/663a912a4b4d4.png'>
+        </div>
+        <div class='hoa-name rainbow'>Gary M</div>
+        <div class='hoa-description'>
+            <b>Kendal Flores</b>
+        </div>
+        <div class='hoa-description'>Making empty threats, acting tough even though hes harmless. Grooming minors much younger than him.</div>
+    </div>
+    <div class='hoa-container'>
+        <div class='hoa-image'>
+            <img src='../cdn/hoa/664571d2ddde4.png'>
+        </div>
+        <div class='hoa-name rainbow'>Spaceyy</div>
+        <div class='hoa-description'>
+            <b>Jaiden Antonio Whittaker</b>
+        </div>
+        <div class='hoa-description'>Running his big mouth off claiming he is untouchable. And talking to minors much younger than him.</div>
+    </div>
+    <div class='hoa-container'>
+        <div class='hoa-image'>
+            <img src='../cdn/hoa/66529e1b2ae17.png'>
+        </div>
+        <div class='hoa-name rainbow'>Liqky</div>
+        <div class='hoa-description'>
+            <b>Jack Nuttall</b>
+        </div>
+        <div class='hoa-description'>IP: 90.196.178.55
+
+Adress: 7 Greta Place, Lancaster, LA12QR
+
+Name: Jack Nuttall</div>
+    </div>
+    <div class='hoa-container'>
+        <div class='hoa-image'>
+            <img src='../cdn/hoa/6654bb5f14208.jpg'>
+        </div>
+        <div class='hoa-name rainbow'>ScottyOfFiveM</div>
+        <div class='hoa-description'>
+            <b>Zac Selzer</b>
+        </div>
+        <div class='hoa-description'>Sending ChildPorn to members of the LK LLC. </div>
+    </div>
+</div>
+<script>
+    (function() {
+        const hoaAudio = document.getElementById('hoa-audio');
+
+        function catchHandler() {
+            // Audio playback was blocked.
+            // We will register input listeners to wait until the user has interacted with the page before playing again.
+
+            let inputListener;
+            inputListener = function() {
+                hoaAudio.play();
+                document.removeEventListener('mousedown', inputListener);
+                document.removeEventListener('keydown', inputListener);
+            }
+            ;
+
+            document.addEventListener('mousedown', inputListener);
+            document.addEventListener('keydown', inputListener);
+        }
+
+        if (hoaAudio.readyState > 1) {
+            // The audio is ready to be played.
+            hoaAudio.play().catch(catchHandler);
+        } else {
+            // The audio cannot be played yet, wait until it is loaded.
+            hoaAudio.addEventListener('canplay', function() {
+                hoaAudio.play().catch(catchHandler);
+            });
+        }
+    }
+    )();
+</script>
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js/vef91dfe02fce4ee0ad053f6de4f175db1715022073587" integrity="sha512-sDIX0kl85v1Cl5tu4WGLZCpH/dV9OHbA4YlKCuCiMmOQIk4buzoYDZSFj+TvC71mOBLh8CDC/REgE0GX0xcbjA==" data-cf-beacon='{"rayId":"88c96e55ab7506bd","r":1,"version":"2024.4.1","token":"6f3b5e8e4c0e45ae8b71ebaadda9bfc2"}' crossorigin="anonymous"></script>
+</body></html>

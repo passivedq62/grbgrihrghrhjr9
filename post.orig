@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vilebin</title>
+    <link rel="stylesheet" href="/assets/css/main.css">
+    <link rel="stylesheet" href="/assets/css/icons.css">
+</head>
+<body>
+    <div class="wrapper">
+        <a style="margin-top:-3px" href="#" class="show-sidebar show"><i class="fa fa-arrow-right"></i></a><div class="table">
+            <div class="sidebar">
+                <div class="right">
+                </div>
+<a style="color:white;line-height:1.1em;font-weight: bold;text-decoration:none!important;text-align:center;font-size:12px" class="sidebar-logo" href="/"><pre>_____             _    _     _       
+|  __ \           | |  | |   (_)      
+| |  | | __ _ _ __| | _| |__  _ _ __  
+| |  | |/ _` | '__| |/ / '_ \| | '_ \ 
+| |__| | (_| | |  |   <| |_) | | | | |
+|_____/ \__,_|_|  |_|\_\_.__/|_|_| |_|
+                                     </pre></a>
+                <div class="options" style="padding-top:3px;font-size:14px"><div class="paste-properties"><span><i class="fa fa-thumb-tack"></i> <span>Pinned</span></span><br></div>                    <p><span style="font-weight:500; color: white;">Title:</span><span style="color:#bababa;float: right;">How to Ensure Your Post Stays Up</span>
+                    </p>
+                    <p style="margin: 5px 0 0 0"><span style="font-weight:500; color: white;">Created:</span><span style="color:#bababa;float: right;">Jul 19, 2023 (6 months ago)</span></p>
+                    <p style="margin: 5px 0 0 0"><span style="font-weight:500; color: white;">Created by:</span><span style="color:#bababa;float: right;">
+                            <a style="text-decoration:none;color: red; font-weight: bold" href="/user/Water">Water [Admin]</a>                        </span>
+                    </p>
+                    <p style="margin: 5px 0 0 0"><span style="font-weight:500; color: white;">Views:</span> <span style="color:#bababa;float: right;">36,954</span>
+                    </p>
+                                        <div class="like-dislike-paste" style="margin-top: 10px;">
+                        <form style="display: inline;" method="POST"><button name="like" style="all: unset;background: none;color: inherit;border: none;padding: 0;font: inherit;cursor: pointer;outline: inherit;" type="submit><span id="like-paste"><i class="fa fa-thumbs-up" aria-hidden="true"></i> <span>3</span></span></button></form> &nbsp;
+                        <form style="display: inline;" method="POST"><button name="dislike" style="all: unset;background: none;color: inherit;border: none;padding: 0;font: inherit;cursor: pointer;outline: inherit;" type="submit><span id="dislike-paste"><i class="fa fa-thumbs-down" aria-hidden="true"></i> <span>0</span></span></button></form>                    </div>                </div>
+                <div class="options" id="btns">
+                    <ul>                        <li><a href="/post" class="btn new">New (N)</a></li>
+                        <li><a class="btn raw" href="/paste/HowtoEnsureYourPostStaysUp/raw">Raw (R)</a></li>
+                    </ul>
+                </div>                <div class="options" id="cmntsctn">
+                                        <div class="comment-container">
+                        <div class="b-comments" id="paste-comments">
+                        </div>
+                    </div>
+                </div>                <div class="options r-hide" id="tos-display">
+                    <p style="margin-top: 0;color: white;">Please note that all posted information is publicly available and must follow our <a href="/tos" style="text-decoration: underline;">TOS.</a></p>
+                </div>
+            </div>
+            <div class="show-container" style="margin-top:10px;padding-left: 20px;">
+<p style="line-height:1em;font-size: 13px;color: white; margin: 0;word-break: break-word;white-space: pre-wrap;font-family: monospace, serif;font-size: 1em;">⸸ &mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash; ⸸
+|                                                                                                           |
+|   At Vilebin, we stand for the highest quality posts available.                                           |
+|       For example, uploading a useless, 4 line dox with nothing but IP information                            |
+|       and a Minecraft username will result in the post being removed.                                         |
+|                                                                                                               |
+|       || Put some effort in or go somewhere else. ||                                                          |
+|                                                                                                               |
+|   Pastes like this WILL BE REMOVED:                                                                       |
+|                                      Name: John                                                           |
+|                                          Age: 18                                                              |
+|                                          Location: America                                                    |
+|                                          IP: 127.0.0.1                                                        |
+|                                          #DoXeD                                                               |
+|                                                                                                           |
+|   Pastes like this ARE GOOD AND WILL STAY:                                                                |
+|    - <a style="text-decoration:none" href="https://vilebin.com/upload/SleepTheGod" target="_blank" rel="noopener noreferrer">https://vilebin.com/upload/SleepTheGod</a> - Credits to Vile                                             |
+|                                                                                                       |
+|                                     IMPORTANT TOS RULES                                                   |
+|                               The following are not allowed on Vilebin.                                       |
+|    - Details/information specifically about children/minors.                                              |
+|    - Explicit imagery/videos of children under the age of 18 (child porn &amp; self-harm/gore).               |
+|    - Spam pastes / irrelevant information / advertisements / dox requests.                                |
+|    - Pastes that are specifically rat / keylog logs.                                                      |
+|        - Direct/physical threats towards somebody (swat, injure, death threats, etc).                         |
+|        - Removing doxes via the edit system (Edit will be denied, and the paste will be edit banned).         |
+|                                                                                                               |
+|                                     IMPORTANT TOS RULES                                                   |
+|   ------------ IF YOU BREAK THESE RULES, YOUR PASTE WILL BE REMOVED. ------------                         |
+|                                                                                                           |
+|   For more information regarding Vilebin&rsquo;s TOS, please visit: <a style="text-decoration:none" href="https://vilebin.com/tos" target="_blank" rel="noopener noreferrer">https://vilebin.com/tos</a>                     |
+|                                                                                                               |
+|                                          CONTACT                                                          |
+|                                                                                                               |
+|   For support &amp; other messages, you may contact us @ the following:                                       |
+|                Telegram - <a style="text-decoration:none" href="https://t.me/conversionist" target="_blank" rel="noopener noreferrer">https://t.me/conversionist</a>                                                          |
+|            <a style="text-decoration:none" href="https://t.me/Vilebin" target="_blank" rel="noopener noreferrer">https://t.me/Vilebin</a>   - Official Telegram channel &amp; group                                     |
+|                                                                                                               |
+|   &lt;!&gt; Any other accounts claiming to be staff are fake &lt;!&gt;                                                |
+|                                                                                                           |
+⸸ &mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash; ⸸</p>            </div>
+        </div>
+    </div>
+<script type="text/javascript">
+var showHideButton = document.querySelector('.show-sidebar');
+var sidebar = document.querySelector('.sidebar');
+var editor = document.querySelector('.editor');
+var showContainer = document.querySelector('.show-container');
+showHideButton.addEventListener('click', function(e)
+{
+    e.preventDefault();
+    showHideButton.classList.toggle('show');
+    var icon = showHideButton.querySelector('i');
+    icon.classList.toggle('fa-arrow-right');
+    icon.classList.toggle('fa-arrow-left');
+    sidebar.classList.toggle('hide');
+    showContainer.classList.toggle('sidebar-hidden');
+});
+</script>
+</body>
+</html>
