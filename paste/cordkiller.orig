@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vilebin</title>
+    <link rel="stylesheet" href="/assets/css/main.css">
+    <link rel="stylesheet" href="/assets/css/icons.css">
+</head>
+<body>
+    <div class="wrapper">
+        <a style="margin-top:-3px" href="#" class="show-sidebar show"><i class="fa fa-arrow-right"></i></a><div class="table">
+            <div class="sidebar">
+                <div class="right">
+                </div>
+<a style="color:white;line-height:1.1em;font-weight: bold;text-decoration:none!important;text-align:center;font-size:12px" class="sidebar-logo" href="/"><pre>__      __ _  _        _      _        
+\ \    / /(_)| |      | |    (_)       
+ \ \  / /  _ | |  ___ | |__   _  _ __  
+  \ \/ /  | || | / _ \| '_ \ | || '_ \ 
+   \  /   | || ||  __/| |_) || || | | |
+    \/    |_||_| \___||_.__/ |_||_| |_|</pre></a>
+                <div class="options" style="padding-top:3px;font-size:14px"><div class="paste-properties"><span><i class="fa fa-thumb-tack"></i> <span>Pinned</span></span><br></div>                    <p><span style="font-weight:500; color: white;">Title:</span><span style="color:#bababa;float: right;">cordkiller</span>
+                    </p>
+                    <p style="margin: 5px 0 0 0"><span style="font-weight:500; color: white;">Created:</span><span style="color:#bababa;float: right;">Jan 26, 2024 (1 day ago)</span></p>
+                    <p style="margin: 5px 0 0 0"><span style="font-weight:500; color: white;">Created by:</span><span style="color:#bababa;float: right;">
+                            <a style="text-decoration:none;color:#2a9fd6" href="/user/Seemo">Seemo</a>                        </span>
+                    </p>
+                    <p style="margin: 5px 0 0 0"><span style="font-weight:500; color: white;">Views:</span> <span style="color:#bababa;float: right;">206</span>
+                    </p>
+                    		            <div class="like-dislike-paste" style="margin-top: 10px;">
+                        <form style="display: inline;" method="POST"><button name="like" style="all: unset;background: none;color: inherit;border: none;padding: 0;font: inherit;cursor: pointer;outline: inherit;" type="submit><span id="like-paste"><i class="fa fa-thumbs-up" aria-hidden="true"></i> <span>1</span></span></button></form> &nbsp;
+                        <form style="display: inline;" method="POST"><button name="dislike" style="all: unset;background: none;color: inherit;border: none;padding: 0;font: inherit;cursor: pointer;outline: inherit;" type="submit><span id="dislike-paste"><i class="fa fa-thumbs-down" aria-hidden="true"></i> <span>0</span></span></button></form>                    </div>                </div>
+                <div class="options" id="btns">
+                    <ul>                        <li><a href="/post" class="btn new">New (N)</a></li>
+                        <li><a class="btn raw" href="/paste/cordkiller/raw">Raw (R)</a></li>
+                    </ul>
+                </div>                <div class="options" id="cmntsctn">
+                                        <div class="comment-container">
+                        <div class="b-comments" id="paste-comments">
+<div class="b-comments b-comment" style="padding-left: 10px; position: relative"><b><a style="color: red; font-weight: bold;" href="/user/sup">sup [Admin]</a></b><p title="Jan 26, 2024 - 06:08 PM" style="color:#bababa;display: inline"> - 1 day ago</p><br><div class="b-content">recommended by me</div><br></div>                        </div>
+                    </div>
+                </div>                <div class="options r-hide" id="tos-display">
+                    <p style="margin-top: 0;color: white;">Please note that all posted information is publicly available and must follow our <a href="/tos" style="text-decoration: underline;">TOS.</a></p>
+                </div>
+            </div>
+            <div class="show-container" style="margin-top:10px;padding-left: 20px;">
+<p style="line-height:1em;font-size: 13px;color: white; margin: 0;word-break: break-word;white-space: pre-wrap;font-family: monospace, serif;font-size: 1em;">Discover the Power of CordKiller - Your Ultimate Discord ID to IP Searcher!
+
+Ever wondered who's behind that Discord ID? Unmask the mystery with CordKiller - the tool designed to reveal the IP behind any Discord handle!
+
+Uncover Identities: CordKiller lets you dig deeper into the virtual realm. Find out the real person behind a Discord ID, unlocking a new level of transparency.
+
+Secure and Private: Rest assured, CordKiller prioritizes privacy. Your searches are confidential, ensuring both your identity and the target's remain protected.
+
+Swift and Seamless: No need for endless waiting. CordKiller provides quick results, ensuring you spend less time searching and more time uncovering the information you need.
+
+Versatile Usage: Whether you're a community manager, server admin, or just a curious user, CordKiller caters to all. Empower yourself with the ability to verify and manage your Discord space effectively.
+
+Get Started Today!
+
+Visit [cordkiller.com](cordkiller.com) to unlock the potential of CordKiller. Explore Discord IDs like never before - it's time to reveal the faces behind the avatars!
+
+<a style="text-decoration:none" href="https://discord.gg/cordx" target="_blank" rel="noopener noreferrer">https://discord.gg/cordx</a></p>            </div>
+        </div>
+    </div>
+<script type="text/javascript">
+var showHideButton = document.querySelector('.show-sidebar');
+var sidebar = document.querySelector('.sidebar');
+var editor = document.querySelector('.editor');
+var showContainer = document.querySelector('.show-container');
+showHideButton.addEventListener('click', function(e)
+{
+    e.preventDefault();
+    showHideButton.classList.toggle('show');
+    var icon = showHideButton.querySelector('i');
+    icon.classList.toggle('fa-arrow-right');
+    icon.classList.toggle('fa-arrow-left');
+    sidebar.classList.toggle('hide');
+    showContainer.classList.toggle('sidebar-hidden');
+});
+</script>
+</body>
+</html>

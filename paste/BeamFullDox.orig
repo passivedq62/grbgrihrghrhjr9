@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vilebin</title>
+    <link rel="stylesheet" href="/assets/css/main.css">
+    <link rel="stylesheet" href="/assets/css/icons.css">
+</head>
+<body>
+    <div class="wrapper">
+        <a style="margin-top:-3px" href="#" class="show-sidebar show"><i class="fa fa-arrow-right"></i></a><div class="table">
+            <div class="sidebar">
+                <div class="right">
+                </div>
+<a style="color:white;line-height:1.1em;font-weight: bold;text-decoration:none!important;text-align:center;font-size:12px" class="sidebar-logo" href="/"><pre>__      __ _  _        _      _        
+\ \    / /(_)| |      | |    (_)       
+ \ \  / /  _ | |  ___ | |__   _  _ __  
+  \ \/ /  | || | / _ \| '_ \ | || '_ \ 
+   \  /   | || ||  __/| |_) || || | | |
+    \/    |_||_| \___||_.__/ |_||_| |_|</pre></a>
+                <div class="options" style="padding-top:3px;font-size:14px">                    <p><span style="font-weight:500; color: white;">Title:</span><span style="color:#bababa;float: right;">Beam Full Dox</span>
+                    </p>
+                    <p style="margin: 5px 0 0 0"><span style="font-weight:500; color: white;">Created:</span><span style="color:#bababa;float: right;">Jan 25, 2024 (1 day ago)</span></p>
+                    <p style="margin: 5px 0 0 0"><span style="font-weight:500; color: white;">Created by:</span><span style="color:#bababa;float: right;">
+                            <a style="text-decoration:none;color:#2a9fd6" href="/user/endzoned">endzoned</a>                        </span>
+                    </p>
+                    <p style="margin: 5px 0 0 0"><span style="font-weight:500; color: white;">Views:</span> <span style="color:#bababa;float: right;">239</span>
+                    </p>
+                    <p style="margin: 5px 0 0 0"><span style="font-weight:500; color: white;">Comments:</span> <span style="color:#bababa;float: right;">0</span></p>		            <div class="like-dislike-paste" style="margin-top: 10px;">
+                        <form style="display: inline;" method="POST"><button name="like" style="all: unset;background: none;color: inherit;border: none;padding: 0;font: inherit;cursor: pointer;outline: inherit;" type="submit><span id="like-paste"><i class="fa fa-thumbs-up" aria-hidden="true"></i> <span>0</span></span></button></form> &nbsp;
+                        <form style="display: inline;" method="POST"><button name="dislike" style="all: unset;background: none;color: inherit;border: none;padding: 0;font: inherit;cursor: pointer;outline: inherit;" type="submit><span id="dislike-paste"><i class="fa fa-thumbs-down" aria-hidden="true"></i> <span>0</span></span></button></form>                    </div>                </div>
+                <div class="options" id="btns">
+                    <ul>                        <li><a href="/post" class="btn new">New (N)</a></li>
+                        <li><a class="btn raw" href="/paste/BeamFullDox/raw">Raw (R)</a></li>
+                    </ul>
+                </div>                <div class="options" id="cmntsctn">
+                    <ul>
+                        <p id="error-msg" style="color: red; padding: 0px; text-align: center; margin: 0;"></p>
+                        <li>
+<p style="width: 100%; color: #b7b7b7; margin: 0;"><b>Username:</b> Anonymous - <a style="text-decoration:none;color:#2a9fd6" href="/login">(Login)</a></p>                        </li>
+    					<form method="POST" action="">                        <li><textarea name="comment" id="comment" placeholder="Your comment"></textarea></li>
+			<div style="display:flex;align-items: center;">
+                        	<img src="data:image/png;base64,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" style="margin-right:8px;margin-bottom:8px;width:50%;"><input style="width:50%" class="inpt" type="text" name="comment_captcha" placeholder="Captcha">
+                    	</div>
+                        <li><button class="btn raw" id="create" style="cursor: pointer;">Submit Comment</button></li>
+    					</form>
+                    </ul>                    <div class="comment-container">
+                        <div class="b-comments" id="paste-comments">
+                        </div>
+                    </div>
+                </div>                <div class="options r-hide" id="tos-display">
+                    <p style="margin-top: 0;color: white;">Please note that all posted information is publicly available and must follow our <a href="/tos" style="text-decoration: underline;">TOS.</a></p>
+                </div>
+            </div>
+            <div class="show-container" style="margin-top:10px;padding-left: 20px;">
+<p style="line-height:1em;font-size: 13px;color: white; margin: 0;word-break: break-word;white-space: pre-wrap;font-family: monospace, serif;font-size: 1em;"> 
+        Reason: Beam is a little larp that claims to be powerful attempting to paste myself with my own tools
+
+        BASIC INFORMATION
+▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
+➤ Name: Mckenzie Carter
+  ➣ Pseudonyms: beam , dialect , dialect124 , beamgzz , beamxyz , Harris Blake , Benjamin Parkfield
+╔──────────────────────────────────────────────────────────────────────────────๑◥◣◆◢◤๑──────────────────────────────────────────────────────────────────────────────╗
+  ➣ &quot;username&quot;, 
+╚──────────────────────────────────────────────────────────────────────────────๑◢◤◆◥◣๑──────────────────────────────────────────────────────────────────────────────╝
+➤ Age: 16
+➤ [DOB] Date of Birth: 2/1/2008
+➤ Location of Birth: Maidstone , England
+➤ Location: Rochester , England
+➤ Race: White
+➤ Sexual Orientation: Straight
+➤ Political Affiliation: NULL
+➤ Native Language: English
+➤ Religion: Non Religious
+  ➣ Additional Information
+╔──────────────────────────────────────────────────────────────────────────────๑◥◣◆◢◤๑──────────────────────────────────────────────────────────────────────────────╗
+  ➣ Gender: Male
+  ➣ Weight: 137
+  ➣ Height: 5'10 
+╚──────────────────────────────────────────────────────────────────────────────๑◢◤◆◥◣๑──────────────────────────────────────────────────────────────────────────────╝
+
+        PERSONAL INFORMATION
+▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
+➤ Country of Citizenship:	England
+➤ [ISP] Internet Service Provider: Sky UK Limited
+➤ Area Code: +44
+➤ Mobile Phone Number: +44 07754 935171
+  ➣ Mobile Phone Email: <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="7d4a4a4849444e484c4a4c3d124f531e1210">[email&#160;protected]</a>
+➤ Current Address: 661 Maidstone Rd, Rochester ME1 3QJ
+  ➣ Previous Address: 34 Oxford Rd, Canterbury CT1 3QS
+➤ Postal Code: ME1 3QJ / CT1 3QS
+➤ Email Address: <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="620f0109070c180b070103101607105b525322050f030b0e4c010d0f">[email&#160;protected]</a> / <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="6f070e1d1d061c410d5f565e1e1b18162f08020e0603410c0002">[email&#160;protected]</a> / <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="0e666f7c7c677d206c626f656b3e384e69636f6762206d6163">[email&#160;protected]</a> 
+  ➣ Additional Information
+╔──────────────────────────────────────────────────────────────────────────────๑◥◣◆◢◤๑──────────────────────────────────────────────────────────────────────────────╗
+  ➣ Static/Dynamic Assignment: 185.185.126.18
+  ➣ Internet Protocol IPV4/6: V4
+  ➣ Timezone: GMT/BST
+╚──────────────────────────────────────────────────────────────────────────────๑◢◤◆◥◣๑──────────────────────────────────────────────────────────────────────────────╝
+
+	FAMILY INFORMATION
+▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
+➤ Mother Name: Katherine Barton (Maiden Name)
+
+  ➣ [DOB] Date of Birth: 23/7/84
+  ➣ Age: 39
+  ➣ Mobile Number: +44 7713 274922
+  ➣ Current Address: 34 Oxford Rd, Canterbury CT1 3QS
+  ➣ Emails: <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="9cd7fde8f4f9eef5f2f9feaeaddcfbf1fdf5f0b2fff3f1">[email&#160;protected]</a>
+  ➣ Additional Information
+
+➤ Father Name: Daniel Carter
+  ➣ [DOB] Date of Birth: 8/3/86
+  ➣ Age: 37
+  ➣ Current Address: 661 Maidstone Rd, Rochester ME1 3QJ
+  ➣ Emails: <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="94f0f5fafdf1f8f7f5e6e0f1e6a6a0d4f3f9f5fdf8baf7fbf9">[email&#160;protected]</a>
+  ➣ Additional Information: beam currently lives with his father
+
+	SCHOOL INFORMATION
+▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
+➣ Note: Beam dropped out of school in early 2021, therefore this information is outdated but i will leave it here anyways.
+
+[NAME] School Name: Canterbury High School
+➤ School Address: Knight Ave, Canterbury CT2 8QA, United Kingdom
+➤ School Website: <a style="text-decoration:none" href="https://www.canterbury.kent.sch.uk/" target="_blank" rel="noopener noreferrer">https://www.canterbury.kent.sch.uk/</a>
+➤ School Phone Number: +44 1227 463971
+  ➣ Additional Information
+╔──────────────────────────────────────────────────────────────────────────────๑◥◣◆◢◤๑──────────────────────────────────────────────────────────────────────────────╗
+  ➣ Grades: NULL
+  ➣ Completed/Incomplete: Incomplete
+╚──────────────────────────────────────────────────────────────────────────────๑◢◤◆◥◣๑──────────────────────────────────────────────────────────────────────────────╝
+
+	SOCIALS
+▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
+➤ Discord ID: 1154816218662981652
+➤ Telegram: t.me/euthanise
+➤ Youtube: <a style="text-decoration:none" href="https://www.youtube.com/channel/UCSRBA6cjIe_30p3os_Uhv5w" target="_blank" rel="noopener noreferrer">https://www.youtube.com/channel/UCSRBA6cjIe_30p3os_Uhv5w</a>
+➤ Steam: <a style="text-decoration:none" href="https://steamcommunity.com/profiles/76561199104463874/" target="_blank" rel="noopener noreferrer">https://steamcommunity.com/profiles/76561199104463874/</a>
+
+	NOTES
+▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
+➤ i run you bitchboy
+        [X] SIGNATURES: endzoned.exe
+                        
+                       
+▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄</p>            </div>
+        </div>
+    </div>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script type="text/javascript">
+var showHideButton = document.querySelector('.show-sidebar');
+var sidebar = document.querySelector('.sidebar');
+var editor = document.querySelector('.editor');
+var showContainer = document.querySelector('.show-container');
+showHideButton.addEventListener('click', function(e)
+{
+    e.preventDefault();
+    showHideButton.classList.toggle('show');
+    var icon = showHideButton.querySelector('i');
+    icon.classList.toggle('fa-arrow-right');
+    icon.classList.toggle('fa-arrow-left');
+    sidebar.classList.toggle('hide');
+    showContainer.classList.toggle('sidebar-hidden');
+});
+</script>
+</body>
+</html>

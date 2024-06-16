@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vilebin</title>
+    <link rel="stylesheet" href="../assets/css/main.css">
+    <link rel="stylesheet" href="../assets/css/icons.css">
+</head>
+<body>
+    <div class="wrapper">
+        <a style="margin-top:-3px" href="Dubi.html#" class="show-sidebar show"><i class="fa fa-arrow-right"></i></a><div class="table">
+            <div class="sidebar">
+                <div class="right">
+                </div>
+<a style="color:white;line-height:1.1em;font-weight: bold;text-decoration:none!important;text-align:center;font-size:12px" class="sidebar-logo" href="../index.html"><pre>__      __ _  _        _      _        
+\ \    / /(_)| |      | |    (_)       
+ \ \  / /  _ | |  ___ | |__   _  _ __  
+  \ \/ /  | || | / _ \| '_ \ | || '_ \ 
+   \  /   | || ||  __/| |_) || || | | |
+    \/    |_||_| \___||_.__/ |_||_| |_|</pre></a>
+                <div class="options" style="padding-top:3px;font-size:14px">                    <p><span style="font-weight:500; color: white;">Title:</span><span style="color:#bababa;float: right;">Dubi</span>
+                    </p>
+                    <p style="margin: 5px 0 0 0"><span style="font-weight:500; color: white;">Created:</span><span style="color:#bababa;float: right;">Jan 25, 2024 (1 day ago)</span></p>
+                    <p style="margin: 5px 0 0 0"><span style="font-weight:500; color: white;">Created by:</span><span style="color:#bababa;float: right;">
+                            <a style="text-decoration:none;color:#2a9fd6" href="../user/Sinister.html">Sinister</a>                        </span>
+                    </p>
+                    <p style="margin: 5px 0 0 0"><span style="font-weight:500; color: white;">Views:</span> <span style="color:#bababa;float: right;">257</span>
+                    </p>
+                    <p style="margin: 5px 0 0 0"><span style="font-weight:500; color: white;">Comments:</span> <span style="color:#bababa;float: right;">0</span></p>		            <div class="like-dislike-paste" style="margin-top: 10px;">
+                        <form style="display: inline;" method="POST"><button name="like" style="all: unset;background: none;color: inherit;border: none;padding: 0;font: inherit;cursor: pointer;outline: inherit;" type="submit><span id="like-paste"><i class="fa fa-thumbs-up" aria-hidden="true"></i> <span>0</span></span></button></form> &nbsp;
+                        <form style="display: inline;" method="POST"><button name="dislike" style="all: unset;background: none;color: inherit;border: none;padding: 0;font: inherit;cursor: pointer;outline: inherit;" type="submit><span id="dislike-paste"><i class="fa fa-thumbs-down" aria-hidden="true"></i> <span>0</span></span></button></form>                    </div>                </div>
+                <div class="options" id="btns">
+                    <ul>                        <li><a href="../post.html" class="btn new">New (N)</a></li>
+                        <li><a class="btn raw" href="Dubi/raw">Raw (R)</a></li>
+                    </ul>
+                </div>                <div class="options" id="cmntsctn">
+                    <ul>
+                        <p id="error-msg" style="color: red; padding: 0px; text-align: center; margin: 0;"></p>
+                        <li>
+<p style="width: 100%; color: #b7b7b7; margin: 0;"><b>Username:</b> Anonymous - <a style="text-decoration:none;color:#2a9fd6" href="../login.html">(Login)</a></p>                        </li>
+    					<form method="POST" action="Dubi.html">                        <li><textarea name="comment" id="comment" placeholder="Your comment"></textarea></li>
+			<div style="display:flex;align-items: center;">
+                        	<img src="data:image/png;base64,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" style="margin-right:8px;margin-bottom:8px;width:50%;"><input style="width:50%" class="inpt" type="text" name="comment_captcha" placeholder="Captcha">
+                    	</div>
+                        <li><button class="btn raw" id="create" style="cursor: pointer;">Submit Comment</button></li>
+    					</form>
+                    </ul>                    <div class="comment-container">
+                        <div class="b-comments" id="paste-comments">
+                        </div>
+                    </div>
+                </div>                <div class="options r-hide" id="tos-display">
+                    <p style="margin-top: 0;color: white;">Please note that all posted information is publicly available and must follow our <a href="../tos.html" style="text-decoration: underline;">TOS.</a></p>
+                </div>
+            </div>
+            <div class="show-container" style="margin-top:10px;padding-left: 20px;">
+<p style="line-height:1em;font-size: 13px;color: white; margin: 0;word-break: break-word;white-space: pre-wrap;font-family: monospace, serif;font-size: 1em;"> 
+                      ╔═════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╗
+                      ║                                                                                                                                                 ║
+                      ║                                                   CONTACT MY TELEGRAM AT THE BOTTOM FOR REMOVALS                                                ║
+                      ║                                                                                                                                                 ║
+                      ╠═════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╣
+                      ║[0x00 - Table Of Contents]▓░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░║
+                      ╚═════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╝
+
+                          *               *                 *                -=====-                            -=====-                             *
+                                                     *                        _..._                              _..._                 *                         *
+                                     *                            *         .~     `~.                        .~`     ~.      *                  *
+                                                    *               ,_     /          }                        {          \     _,         *               *
+                            *              *                       ,_\'--, \   _.'`~~/                         \~~`'._   / ,--'/_,                     *          *
+                                                         *            \'--,_`{_,}  -(        Renzy #Sinister   )-  {,_}`_,--'/         *
+                                                                       '.`-.`\;--,___.'_                     _'.___,--;/`.-`.'
+                                                                         '._`/    |_ _{@}        ^-^        {@}_ _|    \`_.'
+                                                                            /     ` |-';/                     \;'-| `     \
+                                                                           /   \    /  |                     |  \    /   \
+                                                                          /     '--;_                           _;--'     \
+                                                                         _\          `\                       /`          /_
+                                                                        / |`-.___.    /                       \    .___,-'| \
+                                                                      `--`------'`--`                         `--`'------`--`
+
+                                                                               / 0x00 / --&gt;     Table Of Contents
+                                                                               / 0x01 / --&gt;     Introduction
+
+                                                                                        Target - Dubi
+                                                                                   &oline;&oline;&oline;&oline;&oline;&oline;&oline;&oline;&oline;&oline;&oline;&oline;&oline;&oline;&oline;&oline;&oline;&oline;&oline;&oline;&oline;&oline;&oline;
+                                                                               / 1x01 / --&gt;     Personal Information
+                                                                               / 1x02 / --&gt;     Socials
+                                                                               / 1x03 / --&gt;     School
+                                                                               / 1x04 / --&gt;     House Information
+                                                                               / 1x05 / --&gt;     IPS / System Hardware
+                                                                               / 1x06 / --&gt;     Parents
+                                                                               / 1x07 / --&gt;     Relatives
+                                                                               / 1x08 / --&gt;     End &amp; (Expose of Dubi)
+
+                      ╔═════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╗
+                      ║[0x01 - Introduction]▓░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░║
+                      ╚═════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╝
+
+                                                                                           Introduction
+                                                                               &oline;&oline;&oline;&oline;&oline;&oline;&oline;&oline;&oline;&oline;&oline;&oline;&oline;&oline;&oline;&oline;&oline;&oline;&oline;&oline;&oline;&oline;&oline;&oline;&oline;&oline;&oline;&oline;&oline;&oline;&oline;&oline;&oline;&oline;
+                                 Ivan Hernandez, Also known as Dubi aka DubiTheGoat, Is a UGC Creator who creates 1 on 1 copys of real roblox limiteds to make funds
+                                 In 2021, Dubi was known and commonly found on a site called &quot;RBXFlip&quot; He was a known gambler on the site that has lost him thousands
+                                 Beginning into 2023, Dubi openly created a UGC server called &quot;Very Serious Productions&quot; Doing this he has managed to make millions of
+                                   Robux, Using his smart tactics to gain attraction and openely make these fake roblox limiteds, By doing so he proceeds to do this
+                                   He creates roblox limiteds into pieces and uploads them to a group for users to purchase by doing this you either pay 50 - 100 robux
+                                 to get a 1-1 limited but the bad thing here is that, He archieves the limited after a few days or weeks then the fake limited gets Deleted
+                                    Him doing this causes him alot of hate by his community and gets pointed out to be a pedophile which we will get into in a moment.
+                                   Apr 3rd, 2022 Dubi, Was Doxxed By a Person Called &quot;Federal #VILE&quot; Upon this the dox he seems to not learn his lesson on being a Scammer
+                                              So this is why i decided to repaste him and added on some extra details with a more understanding format. 
+                                                                                Dubi being Exposed at the end 1x08
+                                                                            Today i present you the dox of Dubi enjoy.
+                                    
+                                                      
+
+                                                                                            Reasons
+                                                                               &oline;&oline;&oline;&oline;&oline;&oline;&oline;&oline;&oline;&oline;&oline;&oline;&oline;&oline;&oline;&oline;&oline;&oline;&oline;&oline;&oline;&oline;&oline;&oline;&oline;&oline;&oline;&oline;&oline;&oline;&oline;&oline;&oline;&oline;
+                                                                                          Online Dater
+                                                                                            E Sexer
+                                                                               UGC Scammer, Scamming Little Children
+                                                                                             Weirdo
+                                                                                 General waste disgusting Human 
+                                                                                             Catfish
+                                                                                            CP Leaker
+                                                                                            Pedophile
+                                                                                             Racist
+                                                                                           Egotistical
+                                                                                           Dirty Liar!
+                                                                                          Crypto Scammer
+                                                                                          Wannabe Doxxer
+                                                                                             Skid ;)
+                                                                                    Attacks people for no reason
+
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀                                                               ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⣼⣿⣅⣽⣦⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀                                                               ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠠⣿⡟⠋⠀⠉⠀⠛⣿⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀                                                               ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣴⣿⡇⠀⠀⠀⠀⢀⣻⣧⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀                                                               ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠛⣿⡶⣄⡶⣤⢾⣏⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀                                                               ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣿⠇⠀⠀⠀⠈ ⢻⣆⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀                                                               ⠀⠀⠀⠀⠀⠀⠀⢰⡿⠀⠀⠀⠀⠀⠀ ⢻⣦⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀                                                               ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣼⡇⠀⠀⠀⠀⠀⠀⠈ ⢿⣆⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀                                                               ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢠⣿⠀⠀⠀⠀⠀⠀⠀⠀ ⠈⢻⣆⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀                                                               ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣿⠏⠀⠀⠀⠀⠀⠀⠀⠀   ⠈⢿⣆⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+                                                               ⠀⠀⠀⠀⠀⠀⠀⣠⣤⣄⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⣿⣠⣤⣶⣶⠶⢶⣶⣶⣤⣄⣀⡈⢿⣆⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+                                                               ⠀⠀⠀⠀⢀⣀⣰⣿⠉⢻⣷⣠⣀⠀⠀⠀⠀⠀⠀⢀⣠⣤⣤⣄⣠⣾⣿⠟⠉⣉⣤⣤⠀⠀⠀⠀⣩⣭⣝⠛⢿⣿⣤⣄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+                                                               ⠀⠀⣰⣿⠟⠛⠛⠋⠀⠀⢿⣟⠿⢿⣷⠀⠀⠀⢰⣿⠛⠁⠀⢹⣿⢁⡟⠀⠀⣧⣻⣹⣇⣤⣀⣸⣇⡿⣻⠇⠀⢿⠉⠻⣷⣤⣤⣤⣀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+                                                               ⠀⢠⣿⠁⠀⠀⠀⠀⠀⣰⡾⠿⠷⠿⠿⠾⠿⠷⢿⣧⠀⠀⠀⠈⢿⣾⡇⠀⣀⡤⢭⣹⠋⠀⠀⢹⣯⠿⢭⡀⠀⠈⣇⣰⡿⠁⠀⠉⠙⣷⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+                                                               ⠀⠈⣿⡄⠀⠀⠀⠀⣼⣿⡳⢤⣄⡀⠀⠀⠀⠀⠈⢻⣧⣄⠀⠀⠀⢹⣿⠀⣿⠀⢠⡉⠳⠦⠴⠚⢁⣄⠀⢹⠀⣰⡟⠉⠀⠀⠀⠀⠀⢹⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀                                                               ⠀⠙⣿⣄⠀⠀⠀⣿⣇⠙⠂⠀⠀⠀⠀⠀⠀⠀⠀⣩⣿⡇⠀⠀⠀⢻⣧⡘⢧⡀⠙⠲⠦⠶⠖⠋⢁⡴⠋⣰⡿⠀⠀⠀⠀⠀⠀⠀⣼⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀                                                               ⠀⠀⠈⠙⠿⠿⠿⠛⠹⢿⣦⣀⠀⠀⠀⠀⠀⠀⣾⡏⠁⠀⠀⠀⠀⠀⠙⢿⣦⣍⣛⠲⠶⠶⠶⠛⣉⣠⡾⠏⠀⠀⢠⣶⠶⣶⣶⣾⣏⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀                                                               ⠀⠀⠀⠀⠀⠀⠉⠻⢷⣦⣤⣀⠀⠀⠸⣷⣄⠀⠀⠀⣀⣄⠀⠀⠉⠙⠻⠿⠿⠿⡿⠿⠛⠋⠁⠀⠀⠀⣿⡇⠀⠀⠀⠀⠉⠻⣶⣀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀                                                               ⠀⠀⠀⠀⠀⠀⠈⠙⠛⠻⠿⢶⣾⡿⢿⣶⡿⠛⠛⢿⣄⠀⠀⠀⠀⢠⣾⠿⣦⡀⠀⠀⠀⠀⠀⣿⡇⠀⠀⠀⠀⠀⠀⠈⢿⣆⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+                                                               ⠀⠀⠀⣀⣤⣴⣤⣀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣾⡇⠀⠀⠀⠀⠀⢸⣿⡀⠀⠀⢀⣿⠃⠀⠘⣿⠀⠀⠀⠀⠀⣿⠇⠀⠀⠀⠀⠀⠀⠀⠀⠙⣷⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+                                                               ⠀⣠⣾⠟⠉⠉⠉⠉⢻⣦⠀⠀⠀⠀⠀⠀⠀⣀⣀⣀⣿⡇⠀⠀⠀⠀⠀⠀⠙⠿⢷⡾⣟⣁⠀⠀⠀⠻⣷⣦⣀⣠⣾⠟⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠘⢷⡄⠀⠀⠀⠀⠀⠀⠀⠀
+                                                               ⢠⣿⠁⠀⠀⠀⠀⠀⠀⣿⡇⠀⠀⢀⣴⡾⠟⠛⠛⠛⢻⣷⠀⠀⠀⠀⠀⠀⢰⡖⠚⠙⠋⠈⢧⣄⡀⠀⠀⠈⠉⠉⠀⠀⠀⠀⣤⠀⠀⠀⠀⠀⠀⠀⠀⠈⢿⣄⠀⠀⠀⠀⠀⠀⠀
+                                                               ⢸⣿⠀⠀⠀⠀⠀⠀⠐⢿⣧⣀⣾⠟⠁⠀⠀⠀⠀⠀⠈⣿⣆⡀⠀⠀⠀⠀⣸⡇⠀⠀⠀⠀⢸⣏⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⣿⣦⡀⠀⠀⠀⠀⠀⠀⡀⠀⢿⣆⣶⣶⣄⠀⠀⠀
+                                                               ⠸⣿⠀⠀⠀⠀⠀⠀⠀⠈⣻⣿⠋⠀⠀⠀⠀⠀⠀⠀⠀⠘⠛⠁⠀⠀⠀⠀⠙⠶⠺⣆⣴⠶⠾⠋⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⣿⠹⣷⣄⠀⠀⠀⠀⡀⠘⣆⠈⢿⡏⠙⣿⡄⠀⠀
+                                                               ⠀⢿⣆⠀⠀⠀⠀⠀⠀⠀⣿⣇⣠⠴⣛⣥⠖⠂⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣿⡆⠈⠻⣷⣄⡀⠀⠳⣄⠈⣆⢈⣿⣾⣿⡁⠀⠀
+⠀                                                               ⠘⣿⣄⠀⠀⠀⠀⠀⠀⣿⣯⣶⡋⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣿⡇⠀⠀⠈⠙⠿⣶⣤⣈⣣⣽⣿⠋⠉⠛⠛⢷⡆
+⠀                                                               ⠀⠈⢿⣦⡀⠀⠀⠀⢸⣿⠿⠟⣿⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣿⡇⠀⠀⠀⠀⠀⠀⠉⢹⡿⠉⠁⠀⠀⠀⠀⣠⣿
+⠀⠀                                                               ⠀⠀⠛⢿⣦⣀⣀⣸⣧⡀⣠⣼⡿⠂⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⣤⣿⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣿⠁⠀⠀⠀⠀⠀⠀⠀⢸⣇⠀⠀⠀⠀⠀⠈⣿⡅
+⠀⠀⠀⠀⠀                                                               ⠀⠉⠛⠛⠋⠙⠻⠟⠻⠿⠶⣦⣤⣤⣤⣤⣤⣤⣴⡶⠿⠛⠉⢸⣇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣸⡟⠀⠀⠀⠀⠀⠀⠀⠀⠘⣿⡄⠀⠀⠀⠀⢀⣿⠇
+⠀⠀⠀⠀⠀⠀⠀                                                               ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠉⠉⠉⠉⠉⠀⠀⠀⠀⠀⠘⣿⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣰⡿⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠻⣶⣤⣀⣤⡾⠏⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀                                                               ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢹⣇⠀⠀⡷⠀⢀⠀⠀⠀⠀⠀⠀⠀⣴⡿⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠉⠉⠉⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀                                                               ⠀⠀⠀⠀⠀⠀⠀⠀⠈⢿⡆⠀⣷⠀⣾⠀⠀⢀⠀⠀⢀⣼⡿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀                                                               ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⣿⡀⢹⣠⣿⣤⣾⡿⠿⣶⣿⣉⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀                                                               ⠀⠀⠀⠀⠀⠀⠀⢀⣴⡾⠟⠻⣾⣿⣽⣿⡉⠁⠀⣌⣹⣿⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀                                                               ⠀⠀⠀⠀⠀⠀⢰⣿⠋⠀⠀⠀⠀⠀⠙⣿⣀⣈⡛⢰⣼⣿⠄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀                                                               ⠀⠀⠀⠀⠀⠀⠀⠀⣿⡇⠀⠀⠀⠀⠀⠀⠀⠈⠛⢹⣿⠿⠃⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀                                                               ⠀⠀⠀⠀⠀⠀⠀⠀⢿⣇⠀⠀⠀⠀⠀⠀⠀⠀⢀⣼⠏⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀                                                               ⠀⠀⠀⠈⠻⣧⡄⠀⠀⠀⠀⣀⣴⡿⠋⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀                                                               ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⣛⠿⠷⠾⠿⠛⢉⠀⠀⠀
+
+d8888b. db    db d8888b. d888888b      d8888b.  .d88b.  db    db db    db d88888b d8888b. 
+88  `8D 88    88 88  `8D   `88'        88  `8D .8P  Y8. `8b  d8' `8b  d8' 88'     88  `8D 
+88   88 88    88 88oooY'    88         88   88 88    88  `8bd8'   `8bd8'  88ooooo 88   88 
+88   88 88    88 88~~~b.    88         88   88 88    88  .dPYb.   .dPYb.  88~~~~~ 88   88 
+88  .8D 88b  d88 88   8D   .88.        88  .8D `8b  d8' .8P  Y8. .8P  Y8. 88.     88  .8D 
+Y8888D' ~Y8888P' Y8888P' Y888888P      Y8888D'  `Y88P'  YP    YP YP    YP Y88888P Y8888D' 
+                                                                                          
+                                                                                          ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+                      ╔═════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╗
+                      ║[1x01 - Personal Information]▓░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░║
+                      ╚═════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╝
+
+                           &raquo; Usernames:                 Dubi, DubiTheGoat, Hexachloroploronite, Dubiterateee, Dubxterate, dubispell, StelIaris, dubieva, dubicliq, chloeismycatgirI, 
+                                                        &raquo; DubiWasTaken, Gavimeo
+                           &raquo; First Name:                Ivan
+                           &raquo; Last Name:                 Hernandez 
+                           &raquo; Age:                       17
+                           &raquo; Gender:                    Male
+                           &raquo; Height:                    6'3
+                           &raquo; Weight:                    165 LBs
+                           &raquo; Race:                      Dominican   
+                           &raquo; Home Address:              241 W Miller Ave, Garden City, NY 11530
+                           &raquo; Previous Address(s):       5109 Chestnut Ln, East Stroudsburg, PA 18302 (Feb 2013) 
+                                                          └── (Oct 2007) 399 Armond St, Uniondale, NY 11553  
+                                                          └── (Aug 1994) 15 Summerfield Dr, Holtsville, NY 11742
+
+                           &raquo; Phone:                     (708) 476-5495
+                           &raquo; SMS:                       <a href="../cdn-cgi/l/email-protection.html" class="__cf_email__" data-cfemail="6c5b5c54585b5a595855592c1a18091418420f0301">[email&#160;protected]</a>
+                           &raquo; Carrier:                   Verizon Wireless                                                        
+                           &raquo; MMS:                       <a href="../cdn-cgi/l/email-protection.html" class="__cf_email__" data-cfemail="7d4a4d45494a4b484944483d0b070a0d1405531e1210">[email&#160;protected]</a>
+
+                           &raquo; City/Town:                 Garden City, New York
+                           &raquo; County:                    USA
+                           &raquo; Language:                  English
+                           &raquo; House Picture:             <a style="text-decoration:none" href="https://shorturl.at/rIRW1" target="_blank" rel="noopener noreferrer">https://shorturl.at/rIRW1</a>
+
+                           &raquo; Face Pictures:                                                                              
+                           &raquo; <a style="text-decoration:none" href="https://shorturl.at/ewSU8" target="_blank" rel="noopener noreferrer">https://shorturl.at/ewSU8</a>                                                 
+                           &raquo; <a style="text-decoration:none" href="https://shorturl.at/bmPS4" target="_blank" rel="noopener noreferrer">https://shorturl.at/bmPS4</a>                                                       
+                           &raquo; <a style="text-decoration:none" href="https://shorturl.at/gqJO5" target="_blank" rel="noopener noreferrer">https://shorturl.at/gqJO5</a>                                                       
+
+                      ╔═════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╗
+                      ║[1x02 - Socials]▓░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░║
+                      ╚═════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╝
+
+                           &raquo; Discord:                   dubithegoat (690313960519630899)
+                           &raquo; YouTube:                   <a style="text-decoration:none" href="https://www.youtube.com/channel/UCOC7q1drc3RGE8NpRhRTrmA" target="_blank" rel="noopener noreferrer">https://www.youtube.com/channel/UCOC7q1drc3RGE8NpRhRTrmA</a>
+                           &raquo; TikTok:                    <a style="text-decoration:none" href="https://www.tiktok.com/@dubiwastaken" target="_blank" rel="noopener noreferrer">https://www.tiktok.com/@dubiwastaken</a>
+                           &raquo; Snapchat:                  <a style="text-decoration:none" href="https://snapchat.com/@dubiwastaken" target="_blank" rel="noopener noreferrer">https://snapchat.com/@dubiwastaken</a>
+                           &raquo; Steam:                     <a style="text-decoration:none" href="https://steamcommunity.com/profiles/76561198264728322" target="_blank" rel="noopener noreferrer">https://steamcommunity.com/profiles/76561198264728322</a>
+                           &raquo; Twitch:                    <a style="text-decoration:none" href="https://www.twitch.tv/dubithegoat" target="_blank" rel="noopener noreferrer">https://www.twitch.tv/dubithegoat</a>
+                           &raquo; RBLX Trade:                <a style="text-decoration:none" href="https://rblx.trad" target="_blank" rel="noopener noreferrer">https://rblx.trad</a>e/p/DubiWasTaken
+                           &raquo; RBLX Trade #2:             <a style="text-decoration:none" href="https://rblx.trad" target="_blank" rel="noopener noreferrer">https://rblx.trad</a>e/players/1888238787/relationships/followings
+                           &raquo; Roblox:                    <a style="text-decoration:none" href="https://www.roblox.com/users/4760074632/profile" target="_blank" rel="noopener noreferrer">https://www.roblox.com/users/4760074632/profile</a>
+                           &raquo; Roblox Group:              <a style="text-decoration:none" href="https://www.roblox.com/groups/32687250/Very-Serious-Productions#!/about" target="_blank" rel="noopener noreferrer">https://www.roblox.com/groups/32687250/Very-Serious-Productions#!/about</a>
+                           &raquo; Roblox Group #2:           <a style="text-decoration:none" href="https://www.roblox.com/groups/12197661/dubi-fan-group#!/about" target="_blank" rel="noopener noreferrer">https://www.roblox.com/groups/12197661/dubi-fan-group#!/about</a>
+                           &raquo; Roblox #2:                 <a style="text-decoration:none" href="https://www.roblox.com/users/5233472517/profile?friendshipSourceType=PlayerSearch" target="_blank" rel="noopener noreferrer">https://www.roblox.com/users/5233472517/profile?friendshipSourceType=PlayerSearch</a>
+                           &raquo; Roblox UGC Discord:        <a style="text-decoration:none" href="https://discord.com/invite/vsp" target="_blank" rel="noopener noreferrer">https://discord.com/invite/vsp</a>
+                           &raquo; Discord Server:            <a style="text-decoration:none" href="https://discord.gg/VD745mxsXV" target="_blank" rel="noopener noreferrer">https://discord.gg/VD745mxsXV</a>
+                           &raquo; Discord Server:            <a style="text-decoration:none" href="https://discord.gg/cryptoswap" target="_blank" rel="noopener noreferrer">https://discord.gg/cryptoswap</a> ( Owned W RBXFlip Owner )
+                           &raquo; Roblox #3:                 <a style="text-decoration:none" href="https://www.roblox.com/users/1462499830/profile" target="_blank" rel="noopener noreferrer">https://www.roblox.com/users/1462499830/profile</a>
+                           &raquo; Roblox #4:                 <a style="text-decoration:none" href="https://www.roblox.com/users/3386818817/profile" target="_blank" rel="noopener noreferrer">https://www.roblox.com/users/3386818817/profile</a>
+                           &raquo; Roblox #5:                 <a style="text-decoration:none" href="https://www.roblox.com/users/4081808101/profile" target="_blank" rel="noopener noreferrer">https://www.roblox.com/users/4081808101/profile</a>
+                           &raquo; Roblox #6:                 <a style="text-decoration:none" href="https://www.roblox.com/users/1337417309/profile" target="_blank" rel="noopener noreferrer">https://www.roblox.com/users/1337417309/profile</a>
+                           &raquo; Roblox #7:                 <a style="text-decoration:none" href="https://www.roblox.com/users/4481940948/profile" target="_blank" rel="noopener noreferrer">https://www.roblox.com/users/4481940948/profile</a>
+                           &raquo; Roblox #8:                 <a style="text-decoration:none" href="https://www.roblox.com/users/4760074632/profile" target="_blank" rel="noopener noreferrer">https://www.roblox.com/users/4760074632/profile</a>
+                           &raquo; Roblox #9:                 <a style="text-decoration:none" href="https://www.roblox.com/users/5126990154/profile" target="_blank" rel="noopener noreferrer">https://www.roblox.com/users/5126990154/profile</a>
+
+                      ╔═════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╗
+                      ║[1x03 - Old School]             ▓░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░║
+                      ╚═════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╝
+
+                           &raquo; School Info
+ 
+                           &raquo; School Name: Garden City Highschool 
+                           &raquo; School Website: <a style="text-decoration:none" href="https://www.gardencity.k12.ny.us/Domain/8" target="_blank" rel="noopener noreferrer">https://www.gardencity.k12.ny.us/Domain/8</a>
+                           &raquo; School #: (516)-478-2000
+                           &raquo; School Address: 170 Rockaway Ave, Garden City, NY 11530
+                           &raquo; Grade: 12 ( finished )
+                           &raquo; School Mascot: Trojans
+
+                      ╔═════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╗
+                      ║[1x04 - House Information      ]▓░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░║
+                      ╚═════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╝
+
+                           &raquo; House Info                                                                  
+                           &raquo; Bedrooms: 4 bd
+                           &raquo; Bathrooms: 3 ba 
+                           &raquo; Square Feet: 1,663
+                           &raquo; Built In: 1943
+                           &raquo; Remodeled: 2020
+                           &raquo; Yearly Tax Charge: $659 
+                           &raquo; Rent: $3,865/mo   
+
+                      ╔═════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╗
+                      ║[1x05 - IPs / System Hardware  ]▓░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░║
+                      ╚═════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╝
+
+                           &raquo; Internet Protocol
+                           &raquo; IP Address:	108.30.57.171
+                           &raquo; Hostname:	pool-108-30-57-171.nycmny.fios.verizon.net
+                           &raquo; Internet Protocol:	IPv4 - Version 4
+                           &raquo; Types:	Public
+                           &raquo; IP Classes:	Class A Range
+                           &raquo; (1.0.0.0 to 126.255.255.255)
+                           &raquo; Reverse DNS:	171.57.30.108.in-addr.arpa
+                           &raquo; Blacklist Check:	Not Blacklisted (Clean)
+                           &raquo; [108.30.57.171 Blacklist Check]
+
+ 
+                           &raquo; NS (Nameservers):	
+                           &raquo; ns4.verizon.net &gt;&gt; 68.238.96.71
+                           &raquo; ns1.verizon.net &gt;&gt; 71.252.0.71
+                           &raquo; ns3.verizon.net &gt;&gt; 68.238.66.71
+                           &raquo; ns2.verizon.net &gt;&gt; 151.203.0.86
+                           &raquo; Location Details
+                           &raquo; Continent:	North America (NA)
+                           &raquo; Country:	United States   IP Location Found In United States (US)
+                           &raquo; Capital:	Washington
+                           &raquo; State:	New York
+                           &raquo; City:	Garden City
+                           &raquo; Postal:	11501
+                           &raquo; Area:	516
+                           &raquo; Metro:	501
+                           &raquo; ISP:	UUNET
+                           &raquo; Organization:	UUNET
+                           &raquo; AS Number:	AS701 UUNET
+
+                           &raquo; IP Weather Station: Mineola
+                           &raquo; Sky: clear sky
+                           &raquo; Temp: 16.4 ?C (max 18.2 ?C / min 12.7 ?C)
+                           &raquo; Wind Speed: 0.5 m/s
+                           &raquo; Wind Direction: 244.0?
+                           &raquo; Humidity: 56%
+                           &raquo; Cloudiness: 1%
+                           &raquo; Atmospheric pressure: 1012 kPa
+                           &raquo; Time Zone:	America/New_York
+                           &raquo; Local Time:	21:39:29
+                           &raquo; Timezone GMT offset:	-14400
+                           &raquo; Sunrise / Sunset:	07:11 / 18:07
+                           &raquo; Extra Information
+                           &raquo; Continent Lat/Lon:	46.07305 / -100.546
+                           &raquo; Country Lat/Lon:	38 / -98
+                           &raquo; City Lat/Lon:	(40.7436) / (-73.6368)
+                           &raquo; Language:	English
+                           &raquo; Speed:	Broadband (Cable/DSL) Internet Speed
+                           &raquo; [ Check Internet Speed For 108.30.57.171]
+                           &raquo; Currency:	United States dollar($) (USD)
+                           &raquo; IDD Code:	+1
+                           &raquo; 505 
+
+                      ╔═════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╗
+                      ║[1x06 - Parents Information] ▓░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░║
+                      ╚═════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╝
+                      ╔═════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╗
+                                                                ____    ____   ___    _________  ____  ____  ________  _______     
+                                                                |_   \  /   _|.'   `. |  _   _  ||_   ||   _||_   __  ||_   __ \    
+                                                                  |   \/   | /  .-.  \|_/ | | \_|  | |__| |    | |_ \_|  | |__) |   
+                                                                  | |\  /| | | |   | |    | |      |  __  |    |  _| _   |  __ /    
+                                                                 _| |_\/_| |_\  `-'  /   _| |_    _| |  | |_  _| |__/ | _| |  \ \_  
+                                                                |_____||_____|`.___.'   |_____|  |____||____||________||____| |___| 
+                      ╚═════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╝
+                             &raquo; Maria Carmen McElroy
+                             &raquo; Age: 48
+                             &raquo; Address: 241 W Miller Ave, Garden City, 11530
+                             &raquo; Previous Address(s):       5109 Chestnut Ln, East Stroudsburg, PA 18302 (Feb 2013) 
+                                                          └── (Oct 2007) 399 Armond St, Uniondale, NY 11553  
+                                                          └── (Aug 1994) 15 Summerfield Dr, Holtsville, NY 11742
+                             &raquo; Phone: (410) 779-9701
+                             &raquo; Carrier: TextNow
+                             &raquo; Emails: <a href="../cdn-cgi/l/email-protection.html" class="__cf_email__" data-cfemail="d5b8b4a7bcb48ab6e4e7e6e195bdbaa1b8b4bcb9fbb6bab8">[email&#160;protected]</a>  
+                             &raquo; Licenses:                                                                       
+                             &raquo; Nurse Registered (RN)                                                         
+                             &raquo; Number: #849871 
+                             &raquo; Email: <a href="../cdn-cgi/l/email-protection.html" class="__cf_email__" data-cfemail="c0ada1b2a9a19fa3f1f2f3f480a8afb4ada1a9aceea3afad">[email&#160;protected]</a>                                                                                                                                            
+                             &raquo; Email #2: <a href="../cdn-cgi/l/email-protection.html" class="__cf_email__" data-cfemail="dfa8b0b3b9b3bebba6eeefefef9fa6beb7b0b0f1bcb0b2">[email&#160;protected]</a>                                                      
+                             &raquo; Common Passwords:                                                               
+                             &raquo; thisisme2                                                                    
+                             &raquo; Found On:                                                                       
+                             &raquo; Amazon                                                                      
+                             &raquo; MySpace                                                                                                                                                        
+                             &raquo; Facebook: <a style="text-decoration:none" href="https://www.facebook.com/maria.mcelroy.904" target="_blank" rel="noopener noreferrer">https://www.facebook.com/maria.mcelroy.904</a>                                                                                                                      
+                             &raquo; IP: 72.178.132.109                                                                                                                                                           
+                             &raquo; Vehicles:                                                                          
+                                &raquo; 2001 Subaru Outback                                                              
+                                &raquo; 2014 Subaru Imrepza WRX       
+
+                      ╔═════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╗
+                                                                  ________    _     _________  ____  ____  ________  _______     
+                                                                 |_   __  |  / \   |  _   _  ||_   ||   _||_   __  ||_   __ \    
+                                                                   | |_ \_| / _ \  |_/ | | \_|  | |__| |    | |_ \_|  | |__) |   
+                                                                   |  _|   / ___ \     | |      |  __  |    |  _| _   |  __ /    
+                                                                  _| |_  _/ /   \ \_  _| |_    _| |  | |_  _| |__/ | _| |  \ \_  
+                                                                 |_____||____| |____||_____|  |____||____||________||____| |___| 
+                      ╚═════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╝
+                             &raquo; Name: Jose Hernandez
+                             &raquo; Age: 45
+                             &raquo; Address: 241 W Miller Ave, Garden City, 11530
+                             &raquo; Previous Address(s):       5109 Chestnut Ln, East Stroudsburg, PA 18302 (Feb 2013) 
+                                                          └── (Oct 2007) 399 Armond St, Uniondale, NY 11553  
+                                                          └── (Aug 1994) 15 Summerfield Dr, Holtsville, NY 11742
+                             &raquo; Phone: (657) 298-2749
+                             &raquo; Emails: <a href="../cdn-cgi/l/email-protection.html" class="__cf_email__" data-cfemail="0d67627e68696c6f627e7e3f3c4d746c656262236e6260">[email&#160;protected]</a>  
+                             &raquo; Found on:                                                                        
+                             &raquo; Discord                                                                       
+                             &raquo; Samsung                                                                       
+                             &raquo; Spotify                                                                                                                                                              
+                             &raquo; Email: <a href="../cdn-cgi/l/email-protection.html" class="__cf_email__" data-cfemail="ec86839f89888d8e839f9fdeddac958d848383c28f8381">[email&#160;protected]</a>                                                                                                                                           
+                             &raquo; Employment: HACER FELIZ A LA PERSONA K MAS AMO EN EL MUNDO                                                                                                        
+                             &raquo; Education: Studied at UAL Universidad Puerto Vallarta                                                                                                               
+                             &raquo; Bankruptcy:                                                                        
+                             &raquo; Filed: 10/21/2019                                                            
+                             &raquo; Chapter: 13                                                                    
+                             &raquo; Disposition: Dismissed                                                          
+                             &raquo; Case #: 1913340 
+                             &raquo; Facebook: <a style="text-decoration:none" href="https://www.facebook.com/profile.php?id=100076475836969" target="_blank" rel="noopener noreferrer">https://www.facebook.com/profile.php?id=100076475836969</a>
+                             &raquo; Main Email: <a href="../cdn-cgi/l/email-protection.html" class="__cf_email__" data-cfemail="99fceaf6f3ada8aad9fef4f8f0f5b7faf6f4">[email&#160;protected]</a>
+                                                                                             
+                      ╔═════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╗
+                      ║[1x07 - Relatives           ]▓░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░║
+                      ╚═════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╝
+
+                             &raquo; Leticia F Hernandez		
+                             &raquo; Maria Carmen McElroy (mom)		
+                             &raquo; Alexis L Hernandez	
+                             &raquo; Arnulfo H Hernandez	
+                             &raquo; Brizeida M Hernandez	
+                             &raquo; Jose Dolores Hernandez	
+                             &raquo; Jose L Hernandez		
+                             &raquo; Jose J Hernandez	
+                             &raquo; Jose A Hernandez		
+                             &raquo; Jose F Hernandez	
+                             &raquo; Jose V Hernandez	
+                             &raquo; Juana F Hernandez	
+                             &raquo; Lillian I Hernandez	
+                             &raquo; Maria Roque Hernandez	
+                             &raquo; Maria R Hernandez	
+                             &raquo; Shirley Marie Hernandez		
+                             &raquo; Steven Louis Hernandez     
+
+                      ╔═════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╗
+                      ║[1x07 - Emails              ]▓░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░║
+                      ╚═════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╝ 
+
+                              &raquo; <a href="../cdn-cgi/l/email-protection.html" class="__cf_email__" data-cfemail="c6afb0a7a8aea3b4a8a7a8a2a3bc86a1aba7afaae8a5a9ab">[email&#160;protected]</a>
+                              &raquo; <a href="../cdn-cgi/l/email-protection.html" class="__cf_email__" data-cfemail="f192999e9c819483979e8394879483b18890999e9edf929e9c">[email&#160;protected]</a>   
+                              &raquo; <a href="../cdn-cgi/l/email-protection.html" class="__cf_email__" data-cfemail="1973766a7c7d787b766a6a2b28596078717676377a7674">[email&#160;protected]</a>
+                              &raquo; <a href="../cdn-cgi/l/email-protection.html" class="__cf_email__" data-cfemail="3550465a5f010406755258545c591b565a58">[email&#160;protected]</a>
+                              &raquo; <a href="../cdn-cgi/l/email-protection.html" class="__cf_email__" data-cfemail="82efe3f0ebe3dde1b3b0b1b6c2eaedf6efe3ebeeace1edef">[email&#160;protected]</a>  
+                              &raquo; <a href="../cdn-cgi/l/email-protection.html" class="__cf_email__" data-cfemail="87f0e8ebe1ebe6e3feb6b7b7b7c7fee6efe8e8a9e4e8ea">[email&#160;protected]</a>
+                              &raquo; <a href="../cdn-cgi/l/email-protection.html" class="__cf_email__" data-cfemail="de93bfacb7bfbd9be9e69eb9b3bfb7b2f0bdb1b3">[email&#160;protected]</a>
+                              &raquo; <a href="../cdn-cgi/l/email-protection.html" class="__cf_email__" data-cfemail="aee4c1ddcbe6cbdcc09f9f99eec7cdc2c1dbca80cdc1c3">[email&#160;protected]</a>
+
+                                    &gt; Found on:                                                                       
+                                     &gt; Adobe                                                                        
+                                     &gt; Amazon                                                                        
+                                     &gt; Discord                                                                       
+                                     &gt; Eventbrite                                                                    
+                                     &gt; MySpace                                                                       
+                                     &gt; Samsung                                                                      
+                                     &gt; Spotify                                                                        
+                                     &gt; Wattpad   
+                                     &gt; Roblox
+                                     &gt; Apple
+                                     &gt; PornHub
+                                     &gt; Snapchat
+                                     &gt; Telegram
+                                     &gt; Instagram
+                                     &gt; Twitter
+                                     &gt; Google
+                                     &gt; Yahoo
+
+                      ╔═════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╗
+                      ║[1x08 - Credits]▓░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░║
+                      ╚═════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╝
+
+                           &raquo; Osinters:                   <a style="text-decoration:none" href="../user/Renzy.html" target="_blank" rel="noopener noreferrer">https://vilebin.net/user/Renzy</a> 
+                           &raquo; Telegram:                   <a style="text-decoration:none" href="https://t.me/realrenzy." target="_blank" rel="noopener noreferrer">https://t.me/realrenzy.</a>
+
+                                                            ######## ##     ## ######## ########     ###    
+                                                            ##        ##   ##     ##    ##     ##   ## ##   
+                                                            ##         ## ##      ##    ##     ##  ##   ##  
+                                                            ######      ###       ##    ########  ##     ## 
+                                                            ##         ## ##      ##    ##   ##   ######### 
+                                                            ##        ##   ##     ##    ##    ##  ##     ## 
+                                                            ######## ##     ##    ##    ##     ## ##     ## 
+                                                                [NOT MY TEXT]
+                                                                Dubi had met my two friends on a roblox game with his other friends. He was   
+                                                                trying to rizz one of the individuals leading them to exchange discords. He had
+                                                                then went into a discord group chat call with the two while playing with them. He 
+                                                                would start saying creepy things to the one of them and asking them questions such as
+                                                                'do you like being tied up?'. Her friend knew he was being weird &amp; creepy and had
+                                                                went 'afk'. When the two were left alone he had started saying he liked her not even
+                                                                30 minutes after meeting. He started typing to her and asking to call with just two
+                                                                and so they did. He started saying to the girl he wanted to fuck her and tie
+                                                                her up. He was moaning down his mic and started turning his camera off and cumming
+                                                                on cam. The girl left to vc her friend and he would spam call her saying
+                                                                he was going to end his life.. LOLOL WHAT A FUCKING RETARDDD
+                                                             ╔══════════════════════════════════════════╗
+                                                                        EVIDENCE OF THE 'ESEX'
+                                                             ╚══════════════════════════════════════════╝
+                                                             <a style="text-decoration:none" href="https://streamable.com/ziq3on" target="_blank" rel="noopener noreferrer">https://streamable.com/ziq3on</a> - TAPE
+                                                             <a style="text-decoration:none" href="https://cdn.discordapp.com/attachments/1087197591546114078/1087198661424992286/IMG_5913.png" target="_blank" rel="noopener noreferrer">https://cdn.discordapp.com/attachments/1087197591546114078/1087198661424992286/IMG_5913.png</a>
+
+
+                                                                              `8, `8)                            ,adPPRg,
+                                                                               8)  ]8                        ,ad888888888b
+                                                                              ,8' ,8'                    ,gPPR888888888888
+                                                                             ,8' ,8'                 ,ad8&quot;&quot;   `Y888888888P
+                                                                             8)  8)              ,ad8&quot;&quot;        (8888888&quot;&quot;
+                                                                             8,  8,          ,ad8&quot;&quot;            d888&quot;&quot;
+                                                                              `8, `8,     ,ad8&quot;&quot;            ,ad8&quot;&quot;
+                                                                              `8, `&quot; ,ad8&quot;&quot;            ,ad8&quot;&quot;
+                                                                                 ,gPPR8b           ,ad8&quot;&quot;
+                                                                                dP:::::Yb      ,ad8&quot;&quot;
+                                                                                8):::::(8  ,ad8&quot;&quot;
+                                                                                Yb:;;;:d888&quot;&quot;  Fucking
+                                                                                &quot;8ggg8P&quot;       Smoked Retard.</p>            </div>
+        </div>
+    </div>
+<script data-cfasync="false" src="../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script type="text/javascript">
+var showHideButton = document.querySelector('.show-sidebar');
+var sidebar = document.querySelector('.sidebar');
+var editor = document.querySelector('.editor');
+var showContainer = document.querySelector('.show-container');
+showHideButton.addEventListener('click', function(e)
+{
+    e.preventDefault();
+    showHideButton.classList.toggle('show');
+    var icon = showHideButton.querySelector('i');
+    icon.classList.toggle('fa-arrow-right');
+    icon.classList.toggle('fa-arrow-left');
+    sidebar.classList.toggle('hide');
+    showContainer.classList.toggle('sidebar-hidden');
+});
+</script>
+</body>
+</html>

@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vilebin</title>
+    <link rel="stylesheet" href="/assets/css/main.css">
+    <link rel="stylesheet" href="/assets/css/icons.css">
+</head>
+<body>
+    <div class="wrapper">
+        <a style="margin-top:-3px" href="#" class="show-sidebar show"><i class="fa fa-arrow-right"></i></a><div class="table">
+            <div class="sidebar">
+                <div class="right">
+                </div>
+<a style="color:white;line-height:1.1em;font-weight: bold;text-decoration:none!important;text-align:center;font-size:12px" class="sidebar-logo" href="/"><pre>__      __ _  _        _      _        
+\ \    / /(_)| |      | |    (_)       
+ \ \  / /  _ | |  ___ | |__   _  _ __  
+  \ \/ /  | || | / _ \| '_ \ | || '_ \ 
+   \  /   | || ||  __/| |_) || || | | |
+    \/    |_||_| \___||_.__/ |_||_| |_|</pre></a>
+                <div class="options" style="padding-top:3px;font-size:14px">                    <p><span style="font-weight:500; color: white;">Title:</span><span style="color:#bababa;float: right;">0x3 Woke2Tact ( Updated dox )</span>
+                    </p>
+                    <p style="margin: 5px 0 0 0"><span style="font-weight:500; color: white;">Created:</span><span style="color:#bababa;float: right;">Jan 26, 2024 (1 day ago)</span></p>
+                    <p style="margin: 5px 0 0 0"><span style="font-weight:500; color: white;">Created by:</span><span style="color:#bababa;float: right;">
+                            <a style="text-decoration:none;color:#2a9fd6" href="/user/ATKFenan">ATKFenan</a>                        </span>
+                    </p>
+                    <p style="margin: 5px 0 0 0"><span style="font-weight:500; color: white;">Views:</span> <span style="color:#bababa;float: right;">144</span>
+                    </p>
+                    <p style="margin: 5px 0 0 0"><span style="font-weight:500; color: white;">Comments:</span> <span style="color:#bababa;float: right;">1</span></p>		            <div class="like-dislike-paste" style="margin-top: 10px;">
+                        <form style="display: inline;" method="POST"><button name="like" style="all: unset;background: none;color: inherit;border: none;padding: 0;font: inherit;cursor: pointer;outline: inherit;" type="submit><span id="like-paste"><i class="fa fa-thumbs-up" aria-hidden="true"></i> <span>0</span></span></button></form> &nbsp;
+                        <form style="display: inline;" method="POST"><button name="dislike" style="all: unset;background: none;color: inherit;border: none;padding: 0;font: inherit;cursor: pointer;outline: inherit;" type="submit><span id="dislike-paste"><i class="fa fa-thumbs-down" aria-hidden="true"></i> <span>0</span></span></button></form>                    </div>                </div>
+                <div class="options" id="btns">
+                    <ul>                        <li><a href="/post" class="btn new">New (N)</a></li>
+                        <li><a class="btn raw" href="/paste/0x3Woke2TactUpdateddox/raw">Raw (R)</a></li>
+                    </ul>
+                </div>                <div class="options" id="cmntsctn">
+                    <ul>
+                        <p id="error-msg" style="color: red; padding: 0px; text-align: center; margin: 0;"></p>
+                        <li>
+<p style="width: 100%; color: #b7b7b7; margin: 0;"><b>Username:</b> Anonymous - <a style="text-decoration:none;color:#2a9fd6" href="/login">(Login)</a></p>                        </li>
+    					<form method="POST" action="">                        <li><textarea name="comment" id="comment" placeholder="Your comment"></textarea></li>
+			<div style="display:flex;align-items: center;">
+                        	<img src="data:image/png;base64,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" style="margin-right:8px;margin-bottom:8px;width:50%;"><input style="width:50%" class="inpt" type="text" name="comment_captcha" placeholder="Captcha">
+                    	</div>
+                        <li><button class="btn raw" id="create" style="cursor: pointer;">Submit Comment</button></li>
+    					</form>
+                    </ul>                    <div class="comment-container">
+                        <div class="b-comments" id="paste-comments">
+<div class="b-comments b-comment" style="padding-left: 10px; position: relative"><b><a style="color: #2a9fd6;" href="/user/aryxn">aryxn</a></b><p title="Jan 27, 2024 - 01:11 AM" style="color:#bababa;display: inline"> - 18 hours ago</p><br><div class="b-content">active poster &gt;_&lt;</div><br></div>                        </div>
+                    </div>
+                </div>                <div class="options r-hide" id="tos-display">
+                    <p style="margin-top: 0;color: white;">Please note that all posted information is publicly available and must follow our <a href="/tos" style="text-decoration: underline;">TOS.</a></p>
+                </div>
+            </div>
+            <div class="show-container" style="margin-top:10px;padding-left: 20px;">
+<p style="line-height:1em;font-size: 13px;color: white; margin: 0;word-break: break-word;white-space: pre-wrap;font-family: monospace, serif;font-size: 1em;">
+
+
+░Ｄ░ ░ｏ░ ░ｘ░ ░ｅ░ ░ｄ░  ░Ｂ░ ░ｙ░  ░Ａ░ ░Ｔ░ ░Ｋ░ ░Ｆ░ ░ｅ░ ░ｎ░ ░ａ░ ░ｎ░ 
+==============================================================================
+
+                                    
++---------------------------------------------------------------+
+|                      Table of contents                        | 
++---------------------------------------------------------------+
+|      0x1  Introduction                                        |
+|      0x2  Personal Information                                |
+|      0x3 Social Media Accounts                                |    
+|      0x4  IP Information                                      |                                       
++---------------------------------------------------------------+
+|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
++---------------------------------------------------------------+
+|                      0x01  Introduction                       |
++---------------------------------------------------------------+
+Reason: A while back tried &quot;Doxing&quot; me and my friend (Dffect) then after a while this nigga accidentally leaked his own Ip which Is actually hilarious because he was talking about how untouchable he is
+       anyways lets start with this paste. (This is just a better and extended paste from the one I made on doxbin) 
+
+                     
++---------------------------------------------------------------+
+|                  0x2  Personal Information                   |
++---------------------------------------------------------------+
+Full name: Jalynn Wall ( Or it could be Jaylnn Wall Caylen ) 
+Picture of him: <a style="text-decoration:none" href="https://media.discordapp.net/attachments/1178006756291522700/1178017547510095942/image.png?ex=65749d55&amp;is=65622855&amp;hm=040e06ec97266ca54ddff939fb29d04a04f50b1fce98718f0134d5ec3c369b2e&amp;=&amp;format=webp" target="_blank" rel="noopener noreferrer">https://media.discordapp.net/attachments/1178006756291522700/1178017547510095942/image.png?ex=65749d55&amp;is=65622855&amp;hm=040e06ec97266ca54ddff939fb29d04a04f50b1fce98718f0134d5ec3c369b2e&amp;=&amp;format=webp</a>
+Race: Black
+Gender: Male.
+Relationship Status: Single
+Date of Birth: 09/7/2008
+Age: 15 
+------------------------------------------------
+Address: 2438 Mountain View Road                               
+Country: United States/America
+State: Virginia
+City: Petersburg 
+Town: Powhatan
+ZIP: 23803
+Home Number: 1+ 8045985001
+Work Number: 1+ 8048974989 ( Both numbers not confirmed )
+Hashed Passwords: 
+432fd826e6d9ac975f5881e51798a4ed935bea2ed715d27323795923d142de5b
+------------------------------------------------------------------
+
++---------------------------------------------------------------+
+|                  0x3  Social Media Accounts                  |
++---------------------------------------------------------------+
+Online Alias: &quot; Woke2Tact &quot;
+E-mail: <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="f88f999494d6929994819696b88199909797d69b9795">[email&#160;protected]</a> ( Proof: <a style="text-decoration:none" href="https://shorturl.at/jlvL1" target="_blank" rel="noopener noreferrer">https://shorturl.at/jlvL1</a> )
+            └─ Password: september0 (He might of changed it by now)
+Twitter: JalynnWall  
+Instagram: jayisda1.4u
+Facebook: <a style="text-decoration:none" href="https://facebook.com/jalynn324" target="_blank" rel="noopener noreferrer">http://facebook.com/jalynn324</a> ( Not Confirmed )
+Discord Account: woke2tact
+Discord User Id: 974542048973709322
++---------------------------------------------------------------+
+|                      0x4  IP Information                      |
++---------------------------------------------------------------+
+IP Address: 73.12.9.227
+Hostname: c-73-12-9-227.hsd1.va.comcast.net
+ASN number: AS21508 Comcast Cable Communications, LLC
+Proxy Ip: 198.143.57.1
+ISP Comcast Cable Communications
+Hostname: c-73-12-9-227.hsd1.va.comcast.net
+---------------------------------------------------------------------------------
+
+
+Thanks for taking your time viewing this paste I hope you enjoyed it.
+<a style="text-decoration:none" href="https://discord.gg/WDkrSMxh" target="_blank" rel="noopener noreferrer">https://discord.gg/WDkrSMxh</a>
+discord.gg/northlondon2
+
+</p>            </div>
+        </div>
+    </div>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script type="text/javascript">
+var showHideButton = document.querySelector('.show-sidebar');
+var sidebar = document.querySelector('.sidebar');
+var editor = document.querySelector('.editor');
+var showContainer = document.querySelector('.show-container');
+showHideButton.addEventListener('click', function(e)
+{
+    e.preventDefault();
+    showHideButton.classList.toggle('show');
+    var icon = showHideButton.querySelector('i');
+    icon.classList.toggle('fa-arrow-right');
+    icon.classList.toggle('fa-arrow-left');
+    sidebar.classList.toggle('hide');
+    showContainer.classList.toggle('sidebar-hidden');
+});
+</script>
+</body>
+</html>

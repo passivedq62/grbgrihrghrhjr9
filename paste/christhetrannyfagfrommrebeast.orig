@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vilebin</title>
+    <link rel="stylesheet" href="/assets/css/main.css">
+    <link rel="stylesheet" href="/assets/css/icons.css">
+</head>
+<body>
+    <div class="wrapper">
+        <a style="margin-top:-3px" href="#" class="show-sidebar show"><i class="fa fa-arrow-right"></i></a><div class="table">
+            <div class="sidebar">
+                <div class="right">
+                </div>
+<a style="color:white;line-height:1.1em;font-weight: bold;text-decoration:none!important;text-align:center;font-size:12px" class="sidebar-logo" href="/"><pre>__      __ _  _        _      _        
+\ \    / /(_)| |      | |    (_)       
+ \ \  / /  _ | |  ___ | |__   _  _ __  
+  \ \/ /  | || | / _ \| '_ \ | || '_ \ 
+   \  /   | || ||  __/| |_) || || | | |
+    \/    |_||_| \___||_.__/ |_||_| |_|</pre></a>
+                <div class="options" style="padding-top:3px;font-size:14px">                    <p><span style="font-weight:500; color: white;">Title:</span><span style="color:#bababa;float: right;">chris the tranny fag from mrebeast</span>
+                    </p>
+                    <p style="margin: 5px 0 0 0"><span style="font-weight:500; color: white;">Created:</span><span style="color:#bababa;float: right;">Jan 27, 2024 (5 hours ago)</span></p>
+                    <p style="margin: 5px 0 0 0"><span style="font-weight:500; color: white;">Created by:</span><span style="color:#bababa;float: right;">
+                            Anonymous                        </span>
+                    </p>
+                    <p style="margin: 5px 0 0 0"><span style="font-weight:500; color: white;">Views:</span> <span style="color:#bababa;float: right;">28</span>
+                    </p>
+                    <p style="margin: 5px 0 0 0"><span style="font-weight:500; color: white;">Comments:</span> <span style="color:#bababa;float: right;">1</span></p>		            <div class="like-dislike-paste" style="margin-top: 10px;">
+                        <span id="like-paste"><i class="fa fa-thumbs-up" aria-hidden="true"></i> <span>0</span></span> &nbsp;
+                        <span id="dislike-paste"><i class="fa fa-thumbs-down" aria-hidden="true"></i> <span>0</span></span>                    </div>                </div>
+                <div class="options" id="btns">
+                    <ul>                        <li><a href="/post" class="btn new">New (N)</a></li>
+                        <li><a class="btn raw" href="/paste/christhetrannyfagfrommrebeast/raw">Raw (R)</a></li>
+                    </ul>
+                </div>                <div class="options" id="cmntsctn">
+                    <ul>
+                        <p id="error-msg" style="color: red; padding: 0px; text-align: center; margin: 0;"></p>
+                        <li>
+<p style="width: 100%; color: #b7b7b7; margin: 0;"><b>Username:</b> Anonymous - <a style="text-decoration:none;color:#2a9fd6" href="/login">(Login)</a></p>                        </li>
+    					<form method="POST" action="">                        <li><textarea name="comment" id="comment" placeholder="Your comment"></textarea></li>
+			<div style="display:flex;align-items: center;">
+                        	<img src="data:image/png;base64,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" style="margin-right:8px;margin-bottom:8px;width:50%;"><input style="width:50%" class="inpt" type="text" name="comment_captcha" placeholder="Captcha">
+                    	</div>
+                        <li><button class="btn raw" id="create" style="cursor: pointer;">Submit Comment</button></li>
+    					</form>
+                    </ul>                    <div class="comment-container">
+                        <div class="b-comments" id="paste-comments">
+<div class="b-comments b-comment" style="padding-left: 10px; position: relative"><b>Anonymous</b><p title="Jan 27, 2024 - 02:16 PM" style="color:#bababa;display: inline"> - 5 hours ago</p><br><div class="b-content">Skidded my dox. 👍 - Alex</div><br></div>                        </div>
+                    </div>
+                </div>                <div class="options r-hide" id="tos-display">
+                    <p style="margin-top: 0;color: white;">Please note that all posted information is publicly available and must follow our <a href="/tos" style="text-decoration: underline;">TOS.</a></p>
+                </div>
+            </div>
+            <div class="show-container" style="margin-top:10px;padding-left: 20px;">
+<p style="line-height:1em;font-size: 13px;color: white; margin: 0;word-break: break-word;white-space: pre-wrap;font-family: monospace, serif;font-size: 1em;">                      ╔═════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╗
+                      ║                                                         CHRIS THE GAY NIGGER FAGGOT FUCKED                                                      ║ 
+                      ╠═══════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════                                                                                                                                                ║
+
+                      ║                                                                Done right.                                                                      ║ 
+                      ║                                                                                                                                                 ║
+                      ╠═════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╣
+                      ║[0x00 - Table Of Contents - Courtney]▓░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░║
+                      ╠═════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╣
+                      ║   ,-,-.                                        *                    niggerfucks9                          *          *                   *      ║
+                      ║  /.( +.\          *                 *                -=====-                 *          -=====-                             *                   ║
+                      ║  \ {. */                     *                        _..._                              _..._                 *                         *      ║
+                      ║   `-`-'      *                            *         .~     `~.                        .~`     ~.      *                  *                      ║
+                      ║                             *               ,_     /          }      *      *          {          \     _,         *               *            ║
+                      ║     *              *                       ,_\'--, \   _.'`~~/                         \~~`'._   / ,--'/_,                     *          *     ║
+                      ║                                  *            \'--,_`{_,}  -(       Let us begin..      )-  {,_}`_,--'/         *                               ║
+                      ║                                                '.`-.`\;--,___.'_                     _'.___,--;/`.-`.'                                          ║
+                      ║                                                  '._`/    |_ _{@}        ^-^        {@}_ _|    \`_.'                                            ║
+                      ║      Cutie Patootie                                 /     ` |-';/                     \;'-| `     \                                             ║
+                      ║         &gt;_&lt;3                                       /   \    /  |       _   {@}_      |  \    /   \                     &lt;3 Cutie  &lt;3             ║
+                      ║                                                   /     '--;_       _ {@}  _Y{@}        _;--'     \                         &gt;_&gt;                 ║
+                      ║                                                  _\          `\    {@}\Y/_{@} Y/      /`          /_                                            ║
+                      ║                                                 / |`-.___.    /    \Y/\|{@}Y/\|//     \    .___,-'| \                                           ║
+                      ║^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^|^^^^^^^^^^^^^^^`--`------'`--`^^^^^^^^^^^^^^^^^^^^^^^^^`--`'------`--`^^^^^^^^^^^^^^|^^^^^^^^^^^^^^^^^^^^^^^^^^^^║
+                      ║                                                                                                                                                 ║
+                      ║                                                                                                                                                 ║
+                      ║                                                       / 0x00 / --&gt;     Table Of Contents..                                                      ║
+                      ║                                                       / 0x01 / --&gt;     Introduction.......                                                      ║
+                      ║                                                                                                                                                 ║
+                      ║                                                              Victim - Christopher S Tyson                                                       ║
+                      ║                                                              &oline;&oline;&oline;&oline;&oline;&oline;&oline;&oline;&oline;&oline;&oline;&oline;&oline;&oline;&oline;&oline;&oline;&oline;&oline;&oline;&oline;&oline;&oline;&oline;&oline;&oline;&oline;&oline;                                                       ║
+                      ║                                                       / 1x01 / --&gt;     Courtney's Alias..                                                       ║
+                      ║                                                       / 1x02 / --&gt;     Personal Info.....                                                       ║
+                      ║                                                       / 1x03 / --&gt;     Education.........                                                       ║
+                      ║                                                       / 1x04 / --&gt;     Emails............                                                       ║
+                      ║                                                       / 1x05 / --&gt;     Phone Records.....                                                       ║
+                      ║                                                       / 1x6  /--&gt;      Relatives.........                                                       ║
+                      ║                                                       / 1x8 / --&gt;      Weight.....                                                              ║
+                      ║                                                       / 1x9 / --&gt;      Height.....                                                              ║
+                      ║                                                       / 1x10/ --&gt;      Nationality.....                                                         ║
+                      ║                                                       / 1x11/ --&gt;      Zodiac Sign.....                                                         ║
+                      ║                                                       / 1x11/ --&gt;      Hair color......                                                         ║
+                      ║                                                       / 1x12/ --&gt;      Profession......                                                         ║
+                      ║                                                              Mother - Amy Foss Tyson                                                            ║
+                      ║                                                        &oline;&oline;&oline;&oline;&oline;&oline;&oline;&oline;&oline;&oline;&oline;&oline;&oline;&oline;&oline;&oline;&oline;&oline;&oline;&oline;&oline;&oline;&oline;&oline;&oline;&oline;&oline;&oline;&oline;&oline;&oline;&oline;&oline;&oline;                                                       ║
+                      ║                                                       / 2x01 / --&gt;     Personal Info.....                                                       ║
+                      ║                                                       / 2x02 / --&gt;     Emails............                                                       ║
+                      ║                                                       / 2x03 / --&gt;     personal passwords that have been leaked online......                    ║
+                      ║                                                       / 2x04 / --&gt;     .....                                                                    ║
+                      ║                                                                                                                                                 ║
+                      ║                                                           brother - Michael R Tyson                                                             ║
+                      ║                                                        &oline;&oline;&oline;&oline;&oline;&oline;&oline;&oline;&oline;&oline;&oline;&oline;&oline;&oline;&oline;&oline;&oline;&oline;&oline;&oline;&oline;&oline;&oline;&oline;&oline;&oline;&oline;&oline;&oline;&oline;&oline;&oline;&oline;&oline;                                                       ║
+                      ║                                                       / 3x01 / --&gt;     Personal Info.....                                                       ║
+                      ║                                                       / 3x02 / --&gt;     Emails............                                                       ║
+                      ║                                                                                                                                                 ║ 
+                      ║                                                                                                                                                 ║
+                      ║                                                                                                                                                 ║
+                      ║                                                                                                                                                 ║
+                      ║                                                       different evidence  --&gt; Bottom of paste                                                   ║
+                      ║                                                                                                                                                 ║
+                      ╠═════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╣
+                      
+                      ╠═════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╣
+                      ║                                                                                                                                                 ║
+                      ║                                                                                                                                                 ║
+                      ║                                                                                                                                                 ║
+                      ║                                                                                                                                                 ║
+                      ║                                                                                                                                                 ║
+                      ║                                                                    reason for dox                                                               ║
+                      ║                                                        &oline;&oline;&oline;&oline;&oline;&oline;&oline;&oline;&oline;&oline;&oline;&oline;&oline;&oline;&oline;&oline;&oline;&oline;&oline;&oline;&oline;&oline;&oline;&oline;&oline;&oline;&oline;&oline;&oline;&oline;&oline;&oline;&oline;&oline;                                                       ║
+                                                                    nigga became unfunny ever since he started liking it up the ass
+                      ║                                                                                                                                                 ║
+                      ║                                                                                                                                                 ║
+                      ║                                                                                                                                                 ║
+                      ║                                                                                                                                                 ║
+                      ║                                                                    .-==========                                                                 ║
+                      ║                                                                 .-' O    =====                                                                  ║
+                      ║                                                                /___       ===                                                                   ║
+                      ║                                                                   \_      |                                                                     ║
+                      ║                                        _____________________________)    (_____________________________                                         ║
+                      ║                                        \___________               .'      `,              ____________/                                         ║
+                      ║                                          \__________`.     |||&lt;   `.      .'   &gt;|||     .'__________/                                           ║
+                      ║                                             \_________`._  |||  &lt;   `-..-'   &gt;  |||  _.'_________/                                              ║
+                      ║                                                \_________`-..|_  _ &lt;      &gt; _  _|..-'_________/                                                 ║
+                      ║                                                   \_________   |_|  //  \\  |_|   _________/                                                    ║
+                      ║                                                              .-\   //    \\   /-.                                                               ║
+                      ║                                              ,  .         _.'.- `._        _.' -.`._         .  ,                                               ║
+                      ║                                            &lt;&lt;&lt;&lt;&gt;&gt;&gt;&gt;     .' .'  /  '``----''`  \  `. `.     &lt;&lt;&lt;&lt;&gt;&gt;&gt;&gt;                                             ║
+                      ║                                              '/\`         /  .' .'.'/|..|\`.`. `.  \         '/\`                                               ║
+                      ║                                              (())        `  /  / .'| |||| |`. \  \  '        (())                                               ║
+                      ║                                               /\          ::_.' .' /| || |\ `. `._::          /\                                                ║
+                      ║                                              //\\           '``.' | | || | | `.''`           //\\                                               ║
+                      ║                                              //\\             .` .` | || | '. '.             //\\                                               ║
+                      ║                                              //\\                `  | `' |  '                //\\                                               ║
+                      ║                                              \\//                                            \\//                                               ║
+                      ║                                               \/                                              \/                                                ║
+                      ║                                                                                                                                                 ║
+                      ║                                                                                                                                                 ║
+                      ╠═════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╣
+                      ║[1x01 - Aliases - Christopher S Tyson ▓░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░║
+                      ╠═════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╣
+                      ║                                                                                                                                                 ║  
+                      ║    &raquo; Aliases:      Chris                                                                                                                        ║
+                      ╠═════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╣
+                      ║[1x02 - Personal Info - Christopher S Tyson]▓░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░║
+                      ╠═════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╣
+                      ║                                                                                                                                                 ║
+                      ║    &raquo; Full Name:          Christopher S Tyson                                                                                                    ║
+                      ║    &raquo; Age:                26                                                                                                                     ║
+                      ║    &raquo; D.O.B:              1-7-1996 ─ MM/DD/YYYY                                                                                                  ║
+                      ║    &raquo; Gender:             transgender (F)                                                                                                        ║
+                      ║    &raquo; Height:             5'10.2                                                                                                                 ║
+                      ║    &raquo; Weight:             53  bs                                                                                                                 ║
+                      ║    &raquo; Nationality         American                                                                                                               ║
+                      ║    &raquo; Zodiac Sign         Cancer                                                                                                                 ║
+                      ║    &raquo; Hair color          Regular brown                                                                                                          ║
+                      ║    &raquo; Profession          youTuber, Content Creator, Social Media influencer                                                                     ║
+                      ║    &raquo; Religion            Christian                                                                                                              ║
+                      ║                                                                                                                                                 ║
+                      ║     &raquo; Mother:             Amy Foss Tyson                                                                                                        ║
+                      ║    &raquo; Father:             (F/F) the father could not be found]                                                                                   ║
+                      ║                                                                                                                                                 ║
+                      ║                                                                                                                                                 ║
+                      ║                                                                                                                                                 ║
+                      ║    &raquo; Phone:              +1 252 714 4015 / +1 252 717 0401                                                                                      ║
+                      ║                           │ Cell Info                                                                                                           ║
+                      ║                           └──│ Service Provider: T-Mobile                                                                                       ║
+                      ║                              │ Service Region: usa                                                                                              ║
+                      ║                              │ Connection Status: Disconnected                                                                                  ║
+                      ║                              │ Type: Wireless                                                                                                   ║
+                      ║                                                                                                                                                 ║
+                      ║    &raquo; Address:            150 W Littlefield Rd, Ayden, NC 28513, USA                                                                             ║
+                      ║                           │ Address Info                                                                                                        ║
+                      ║                           └──│ Bedrooms: 2                                                                                                      ║
+                      ║                              │ Apartment Cell Number: (623) 587-1700 [Dial extension 1009]                                                      ║
+                      ║                              │ Office hours: 7 Days a Week 8AM - 9PM                                                                            ║
+                      ║                              │ Evidence: <a style="text-decoration:none" href="https://i.imgur.com/Dn965rX.jpg" target="_blank" rel="noopener noreferrer">https://i.imgur.com/Dn965rX.jpg</a>                                                                        ║
+                      ║                                                                                                                                                 ║
+                      ║                                                                                                                                                 ║
+                      ║                                                                                                                                                 ║
+                      ║  &raquo; IP Address:              76.3.102.223                                                                                                        ║
+                      ║                             │ Address Info                                                                                                      ║
+                      ║                             └──│ Index 60666                                                                                                    ║
+                      ║                                │ Brightspeed Organization                                                                                       ║
+                      ║                                │Provider CenturyLink Communications, LLC                                                                        ║
+                      ║                                                                                                                                                 ║
+                      ║                                                                                                                                                 ║
+                      ║                                                                                                                                                 ║
+                      ╠═════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╣
+                      ║[1x05 - Socials - Christopher S Tyson]▓░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░║
+                      ╠══════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════                                                                                                                            ║
+                      ║    &raquo; Twitter:- <a style="text-decoration:none" href="https://twitter.com/chris" target="_blank" rel="noopener noreferrer">https://twitter.com/chris</a>                                                                                                        ║
+                      ║    &raquo; Tiktok: - could not be found                                                                                                               ║
+                      ║    &raquo; YOUTUBE - <a style="text-decoration:none" href="https://www.youtube.com/channel/tysonboy34/videos" target="_blank" rel="noopener noreferrer">https://www.youtube.com/channel/tysonboy34/videos</a> 				                                                ║
+                      ║    &raquo; YOUTUBE - <a style="text-decoration:none" href="https://www.youtube.com/channel/UCPKA_LI1y87QaT1ny1hrhfA/videos" target="_blank" rel="noopener noreferrer">https://www.youtube.com/channel/UCPKA_LI1y87QaT1ny1hrhfA/videos</a>                                                                  ║                                                            
+                      ║    &raquo; NST - <a style="text-decoration:none" href="https://www.instagram.com/chris_thememegod" target="_blank" rel="noopener noreferrer">https://www.instagram.com/chris_thememegod</a>                                                                                           ║
+                      ║                                                                                                                                                 ║
+                      ║                                                                                                                                                 ║
+                      ║                                                                                                                                                 ║ 
+                      ║                                                                                                                                                 ║
+                      ╠═════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════║
+                      ╠═════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╣
+                      ║[1x08 - Emails - Christopher S Tyson]▓░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░║
+                      ╠═════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╣
+                      ║                                                                                                                                                 ║
+                      ║         database name  MyFitnessPal                                                                                                             ║
+                      ║         Email:  <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="4c2e3e252b2438277d7e0c3f3839282922383f62292f3962292839">[email&#160;protected]</a>                                                                                                      ║
+                      ║             encrypted password: ce1a63205222a05c326cac63d0f2e663c378180c                                                                        ║
+                      ║            IP: 67.142.173.22                                                                                                                    ║
+                      ║           Nick: brightk12                                                                                                                       ║
+                      ║                                                                                                                                                 ║
+                      ║                                                                                                                                                 ║
+                      ║           Email: <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="7b1909121c130f104a493b080f0e1f1e150f08551e180e551e1f0e">[email&#160;protected]</a>                                                                                                     ║
+                      ║        Зашифрованный пароль: ce1a63205222a05c326cac63d0f2e663c378180c                                                                           ║
+                      ║        IP: 67.142.173.22                                                                                                                        ║
+                      ║        Nick: brightk12                                                                                                                          ║
+                      ║                                                                                                                                                 ║
+                      ║      Email: <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="4426362d232c302f75760437303120212a30376a2127316a212031">[email&#160;protected]</a>                                                                                                          ║
+                      ║    Password: kaitlyn13                                                                                                                          ║
+                      ║                                                                                                                                                 ║
+                      ║                                                                                                                                                 ║
+                      ║                                                                                                                                                 ║
+                      ║           database name      StockX                                                                                                             ║
+                      ║                                                                                                                                                 ║
+                      ║ Email: <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="88ebe0fae1fbfce0ede5ede5edefe7ecc8efe5e9e1e4a6ebe7e5">[email&#160;protected]</a>                                                                                                                ║
+                      ║                                                                                                                                                 ║
+                      ║ Email: <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="3b58534952484f535e565e565e5c545f7b5c565a525715585456">[email&#160;protected]</a>                                                                                                                ║
+                      ║ encrypted password: 4f652b66358b7dcd822a9c1d6b3b9b933d:bTx3CEiSYXzACBTEwVZk4WyNZarvN5sC                                                         ║
+                      ║ IP: 184.2.214.103                                                                                                                               ║
+                      ║ Nick: PabloTG                                                                                                                                   ║
+                      ║ Currency: USD                                                                                                                                   ║
+                      ║ Surname: Tyson                                                                                                                                  ║
+                      ║ First Name: Christopher                                                                                                                         ║
+                      ║                                                                                                                                                 ║
+                      ║                                                                                                                                                 ║ 
+                      ║        database name   DuelingNetwork                                                                                                           ║
+                      ║                                                                                                                                                 ║
+                      ║  Email: <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="bcc8c5cfd3d2c8c5cfd3d289fcddd3d092dfd3d1">[email&#160;protected]</a>                                                                                                                     ║
+                      ║  Password: tysonboy34                                                                                                                           ║
+                      ║                                                                                                                                                 ║
+                      ║  Email: <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="710508021e1f0508021e1f4431101e1d5f121e1c">[email&#160;protected]</a>                                                                                                                     ║
+                      ║  Encrypted Password: cc4837d69cfc1c65644603df76aad98c                                                                                           ║
+                      ║  IP: 166.182.80.239                                                                                                                             ║
+                      ║  Nick: tysonboy34                                                                                                                               ║
+                      ║                                                                                                                                                 ║
+                      ║                                                                                                                                                 ║
+                      ║                                                                                                                                                 ║
+                      ║    database name Ga$$Pacc                                                                                                                       ║
+                      ║                                                                                                                                                 ║
+                      ║  Email: <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="593a312b302a2d313c343c343c3e363d193e34383035773a3634">[email&#160;protected]</a>                                                                                                               ║
+                      ║  Password:  1qaz!QAZ                                                                                                                            ║
+                      ║  Leak site:  Stockx.com.                                                                                                                        ║
+                      ║                                                                                                                                                 ║
+                      ║  Email: <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="6e0c1c0709061a055f5c2e1d1a1b0a0b001a1d400b0d1b400b0a1b">[email&#160;protected]</a>                                                                                                              ║
+                      ║  Password: kaitlyn13                                                                                                                            ║
+                      ║ Leaked site: myfitnesspal_emailpass_50                                                                                                          ║
+                      ║                                                                                                                                                 ║
+                      ║  Email: <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="9ce8e5eff3f2e8e5eff3f2a9dcfdf3f0b2fff3f1">[email&#160;protected]</a>                                                                                                                     ║
+                      ║  Password: tysonboy34                                                                                                                           ║
+                      ║ Leak site:  Duelingnetwork.com                                                                                                                  ║
+                      ║                                                                                                                                                 ║
+                      ║                                                                                                                                                 ║
+                      ║    database name  quidd                                                                                                                         ║
+                      ║                                                                                                                                                 ║           
+                      ║ Email: <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="2a5e535945445e535945441f6a4b454604494547">[email&#160;protected]</a>                                                                                                                      ║
+                      ║ Encrypted Password: $2a$10$6YAfgsziiwLso4T450PozuylLt.ncbUTwugK.7Z0rmOosC2ZXlDKq                                                                ║
+                      ║ Nickname: saladass_69                                                                                                                           ║
+                      ║                                                                                                                                                 ║
+                      ║                                                                                                                                                 ║
+                      ║    database name CouponMom                                                                                                                      ║
+                      ║                                                                                                                                                 ║
+                      ║ Email: <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="4b3f323824253f323824257e0b2a242765282426">[email&#160;protected]</a>                                                                                                                      ║
+                      ║ Password:  90400                                                                                                                                ║
+                      ║                                                                                                                                                 ║
+                      ║                                                                                                                                                 ║
+                      ║  database name  ryptoArchiveNoPublik                                                                                                            ║                 
+                      ║                                                                                                                                                 ║
+                      ║ Email: <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="5a39322833292e323f373f373f3d353e1a3d373b333674393537">[email&#160;protected]</a>                                                                                                                ║
+                      ║ ║Password:  1QazQAZ.                                                                                                                            ║
+                      ║                                                                                                                                                 ║
+                      ╠═════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════║
+                      ║[2x01 - Personal Info - Mother]▓░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░║
+                      ╠═════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╣
+                      ║                                                                                                                                                 ║
+                      ║    &raquo; Alias(es):          Amy Foss Tyson                                                                                                         ║
+                      ║                                                                                                                                                 ║
+                      ║    &raquo; Full Name:          Amy Foss Tyson                                                                                                         ║
+                      ║    &raquo; Age:                51                                                                                                                     ║
+                      ║    &raquo; D.O.B:              ...                                                                                                                    ║
+                      ║    &raquo; Gender:             Female (F)                                                                                                             ║
+                      ║                                                                                                                                                 ║
+                      ║    &raquo; Relationship:       Divorced                                                                                                               ║
+                      ║                                                                                                                                                 ║
+                      ║                                                                                                                                                 ║
+                      ║                                                                                                                                                 ║        
+                      ║    &raquo; Address:             5533 Marvin Taylor Rd Ayden, NC 28513                                                                                 ║
+                      ║                           │ Address Info                                                                                                        ║
+                      ║                           └──│ Bedrooms: 2                                                                                                      ║
+                      ║                              │ Apartment Cell Number: (623) 587-1700 [Dial extension 1009]                                                      ║
+                      ║                              │ Office hours: 7 Days a Week 8AM - 9PM                                                                            ║
+                      ║                              │ Evidence:                                                                                                        ║
+                      ║                                                                                                                                                 ║
+                      ║    &raquo; Last Dated Address:  5533 Marvin Taylor Rd Ayden, NC 28513                                                                                 ║
+                      ║                           │ Address Info                                                                                                        ║
+                      ║                           └──│ Info: This is simply the last recorded. Nothing to be alarmed.                                                   ║
+                      ║                              │ Courtney, Audri and Beth live at the same recorded address.                                                      ║
+                      ║                                                                                                                                                 ║
+                      ║                                                                                                                                                 ║
+                      ╠═════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════║
+                      ║[2x01 - personal information of father and sister]▓░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░║
+                      ╠═════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╣
+                      ║                                                                                                                                                 ║
+                      ║                                                                                                                                                 ║
+                      ║                                                                                                                                                 ║                 
+                      ║                                                                                                                                                 ║
+                      ║                                                                                                                                                 ║
+                      ║                        DAD                                                                                                                      ║
+                      ║                                                                                                                                                 ║
+                      ║                       ING - Louis Stephen Tyson                                                                                                 ║
+                      ║                        AGE - 57                                                                                                                 ║
+                      ║                 DATA - June 17th, 1964                                                                                                          ║
+                      ║                   NUMBER - +1 252-524-5902 / +1 919-524-5902                                                                                    ║
+                      ║                     EMAIL - #                                                                                                                   ║
+                      ║                 ADDRESS - 5533 Marvin Taylor Rd. Ayde                                                                                           ║
+                      ║                                                                                                                                                 ║
+                      ║                SISTER                                                                                                                           ║
+                      ║                                                                                                                                                 ║
+                      ║                ING - Sarah Elizabeth Tyson                                                                                                      ║ 
+                      ║               AGE - 31                                                                                                                          ║
+                      ║              USERS - KattieTY                                                                                                                   ║
+                      ║                NUMBER - +1 302-730-391                                                                                                          ║
+                      ║                EMAIL - #                                                                                                                        ║
+                      ║             ADDRESS 4436 Southlea Dr Winterville, NC 28590                                                                                      ║
+                      ╠═════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╣</p>            </div>
+        </div>
+    </div>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script type="text/javascript">
+var showHideButton = document.querySelector('.show-sidebar');
+var sidebar = document.querySelector('.sidebar');
+var editor = document.querySelector('.editor');
+var showContainer = document.querySelector('.show-container');
+showHideButton.addEventListener('click', function(e)
+{
+    e.preventDefault();
+    showHideButton.classList.toggle('show');
+    var icon = showHideButton.querySelector('i');
+    icon.classList.toggle('fa-arrow-right');
+    icon.classList.toggle('fa-arrow-left');
+    sidebar.classList.toggle('hide');
+    showContainer.classList.toggle('sidebar-hidden');
+});
+</script>
+</body>
+</html>
